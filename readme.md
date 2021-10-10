@@ -5,7 +5,7 @@
 ***
 
 ## Goal For This Project
-
+Hi and welcome to my game Rock, Paper, Scissors . The goal for this project is to have a fully functional , fun , intuitive replayable Rock, Paper,Scissors game .
 ***
 
 
@@ -41,37 +41,37 @@
 ## Ux
 ***
 ### User Goals
-* A website filled with relevant content
-* A website easy to use on all platforms
-* Appealing to all users ,not just car geeks
-* The website should be fun, exciting
-* The user should learn without realising 
+* The game should have relevant content
+* The game should be easy to use on all platforms
+* The game should be intuitive and look modern
+* The game should be fun, exciting
+* The game should work without fault or glitches 
 
 ### User Stories
-* As a user I want the site to be easy to navigate
-* As a user I want the site to have useful information
-* As a user I want to be excited by the content 
-* As a user I want the  conten to be visually stimulating
-* As a user I want the site to be current and modern in design
+* As a user I want the game to be easy to navigate
+* As a user I want the game to have useful information
+* As a user I want the game to be exciting  
+* As a user I want the game to be visually stimulating
+* As a user I want the game to be current and modern in design
 
 ### Site Owners Goals
-* Stand out from the competition
-* Users to use the search fuction to look for a car ,proves engagement .
-* Potentially build up the site for various models if successfull
+* To have a working game which is fun to use
+* The game sould be easy and fun to use 
+* The code should be easy enough to read as to be potentially upgraded or extened to include other weapons such as spock or lizard in the future
 ***
 
-### User Requirements And Expextations
+### User Requirements And Expectations
 ***
 #### Requirements
-* Easy to navigate via the menu
+* Easy to play and understand who is winning
 * Relevant quality content
-* Clear information
+* Clear rules in footer
 * Visually appealing
 ####  Expectations
-* The user expects links to open in a new tab
-* The user expects the site to entertain them
-* The user expects the site to react smoothly with minimal lag 
-* The user expects the site to be visually appealing
+* The user expects the game to be fun
+* The user expects the game to entertain them
+* The user expects the game to react smoothly with minimal lag 
+* The user expects the game to be visually appealing
 ***
 ### Design choices
 
