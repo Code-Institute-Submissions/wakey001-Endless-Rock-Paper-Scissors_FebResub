@@ -21,20 +21,36 @@ footer {
     bottom: 0;
     padding-top: 5px;
     box-sizing: border-box;
+    color: #fff;
+    background: color #000;
 }
 
 /*Game Area*/
 .game-area{
+    text-align: center;
+    width:100%;
     
 }
 .control{
+    
 
 }
-#meassages{}
+#messages{}
 
-.player{}
+.player{
+    margin: 0;
+
+    display: inline-block;
+    background-color:lightskyblue;
+    width: 49%;
+}
 #player-image{}
-.computer{}
+.computer{
+    
+    
+    display: inline-block;
+    background-color: lime;
+    width: 49%;}
 #computer-image{}
 
 
