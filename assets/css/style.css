@@ -15,7 +15,7 @@ header {
     text-align:center;
 }
 footer {
-    position:absolute;
+    
     width: 100%;
     text-align: center;
     left: 0;
@@ -63,7 +63,7 @@ footer {
     background-color: lime;
     width: 49%;}
 #computer-image{
-    height:300px;
+    
 }
 
 
