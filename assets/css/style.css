@@ -15,14 +15,16 @@ header {
     text-align:center;
 }
 footer {
-    position: absolute;
+    position:absolute;
     width: 100%;
     text-align: center;
+    left: 0;
     bottom: 0;
-    padding-top: 5px;
+    padding-top: 2px;
     box-sizing: border-box;
     color: #fff;
-    background: color #000;
+    background-color: #000;
+    min-height: 80px;
 }
 
 /*Game Area*/
@@ -30,27 +32,38 @@ footer {
     text-align: center;
     width:100%;
     
+    
 }
 .control{
+    display: inline-block;
+    margin: 3px;
+    width: 80px;
+    height: 40px;
+    border-style: dotted;
     
 
 }
-#messages{}
+#messages{
+    height: 20px;
+}
 
 .player{
     margin: 0;
-
     display: inline-block;
     background-color:lightskyblue;
     width: 49%;
 }
-#player-image{}
+#player-image{
+    
+}
 .computer{
     
     
     display: inline-block;
     background-color: lime;
     width: 49%;}
-#computer-image{}
+#computer-image{
+    height:300px;
+}
 
 
