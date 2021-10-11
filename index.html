@@ -16,14 +16,20 @@
     <section class="game-area">
         <div>
             <p>Choose your weapon</p>
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+            <button aria-label="Paper" data-choice="1" class="control">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
 
         </div>
-        <div></div>
-        <div class="human"></div>
-        <div class="computer"></div>
+        <div id="messages"></div>
+        <div class="player">
+            <h3 class="scores">Your score:<span id="player-score">0</span></h3>
+            <img id="player-image" src="" alt="Rock Paper Scissors">
+        </div>
+        <div class="computer">
+            <h3 class="scores">Computer score:<span id="computer-score">0</span></h3>
+            <img id="computer-image" src="" alt="Rock Paper Scissors">
+        </div>
 
 
 
