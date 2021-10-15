@@ -85,7 +85,7 @@ Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have 
 
 ***
 
-### Features
+### Features 
 
 #### Existing Features
 
@@ -144,7 +144,6 @@ Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have 
 
 ### Testing 
 
-#### Navbar
 ##### Plan
 
 ##### Implementation
