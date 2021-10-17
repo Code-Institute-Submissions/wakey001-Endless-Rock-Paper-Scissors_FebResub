@@ -37,3 +37,17 @@ function playGame(playerChoice){
 
     updateScores(result);
 }
+/**
+ * Function checks who the winner is .
+ * Parameters playerChoice , computerChoice
+ */
+function checkWinner(playerChoice, computerChoice){
+    if(playerChoice === computerChoice){
+        return 'This game is a tie'
+    }
+};
+function updateScores(){
+
+}
+
+
