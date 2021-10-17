@@ -15,9 +15,7 @@
    */
   for (let button of buttons){
       button.addEventListener('click', function (){
-          let playerChoice = this.getAttribute('data-choice');{
-              alert(`You chose ${choices}`);
-          }
+          let playerChoice = this.getAttribute('data-choice');
           playGame(playerChoice);
       });
 }
@@ -30,7 +28,7 @@ function playGame(playerChoice){
     playerImage.src = `assets/images/${choices[playerChoice]}.png`;
     playerImage.alt = choices[playerChoice];
 
-    let computerChoice = Math.floor(Math.random() * 3);
+    let computerChoice = Math.floor(Math.random()* 3);
 
     computerImage.src = `assets/images/${choices[computerChoice]}.png`;
     computerImage.alt = choices[computerChoice];
@@ -46,10 +44,21 @@ function playGame(playerChoice){
 function checkWinner(playerChoice, computerChoice){
     if(playerChoice === computerChoice){
         alert('This game is a tie')
+        
+    }
+    if (playerChoice === `${choices[0]}`){
+        if(computerChoice == 'paper'){
+            alert('Sorry computer won!');
+        }else {
+            ('Congratulations you won');
+            
+        }
     }
 };
 function updateScores(){
 
 }
+
+
 
 
