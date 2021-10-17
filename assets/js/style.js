@@ -43,7 +43,7 @@ function playGame(playerChoice){
  */
 function checkWinner(playerChoice, computerChoice){
     if(playerChoice === computerChoice){
-        return 'This game is a tie'
+        alert('This game is a tie')
     }
 };
 function updateScores(){

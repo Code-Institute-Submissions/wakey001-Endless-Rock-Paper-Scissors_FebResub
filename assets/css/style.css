@@ -55,16 +55,17 @@ footer {
     height: 50%;
 }
 #player-image{
+    width: 75%;
     
 }
 .computer{
-    
-    
     display: inline-block;
     background-color: lime;
-    width: 49%;}
+    width: 49%;
+}
 #computer-image{
-    
+
+    width: 75%;
 }
 
 
