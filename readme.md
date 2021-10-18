@@ -89,20 +89,25 @@ Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have 
 
 #### Existing Features
 
+##### Main Images
+
+The images I have used were borrowed from google images and cropped and flipped in paint to create negatives of each other. I chose these hand guestures over the actutual physical images as imo its makes the game more fun and silly which is what it is really , a simple game that can be played with hands too.
+
 ##### Game Area
-For the game area I have decided to have apposing images . One for the computer and one for user/player 
-Above the corresponding area is a scoreboard which goes up accordingly depending who wins.
-This is done by having two divs next to each other in an inline-block with an image inside the div.
+For the game area I have decided to have apposing images as I feel this gives the game an arcade like vs feel .
+ One side for the computer and one for user/player and above this corresponding area is a scoreboard which goes up accordingly depending who wins.
 
 
 ##### Footer 
-For the footer i have decided to show a brief description of the rules . This is a black border-box ,with a width of 100%
+For the footer i have decided to show a brief description of the rules . This is a black border-box with a width of 100% and text aligned centraly and in white to stand out .
 
 ##### Features To Be Implemented
+ In the future I wish to add lizard and spock to the game as well as updating the styling to perhaps more of a simple styling as apposed to the arcade like layout of this one.
 
 #### Bugs
 
 * ##### Bug 
+
  
 
 * ##### Fix 
