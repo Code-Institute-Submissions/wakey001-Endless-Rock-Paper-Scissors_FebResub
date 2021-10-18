@@ -52,13 +52,14 @@ footer {
     display: inline-block;
     background-color:lightskyblue;
     width: 49%;
-    height: 50%;
+    
 }
 
 .computer{
     display: inline-block;
     background-color: lime;
     width: 49%;
+    
 }
 
 #rock:hover{
@@ -70,5 +71,8 @@ footer {
 #scissors:hover{
     cursor: pointer;
 }
-
-
+img{
+    width:100px ;
+    height:100px ;
+    display:grid
+}
