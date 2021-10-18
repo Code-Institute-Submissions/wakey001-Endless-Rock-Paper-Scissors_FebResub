@@ -47,7 +47,7 @@ function checkWinner(playerChoice, computerChoice){
         
     }
     if (playerChoice === `${choices[0]}`){
-        if(computerChoice == 'paper'){
+        if(computerChoice == `${choices[2]}`){
             alert('Sorry computer won!');
         }else {
             ('Congratulations you won');

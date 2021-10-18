@@ -90,8 +90,13 @@ Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have 
 #### Existing Features
 
 ##### Game Area
+For the game area I have decided to have apposing images . One for the computer and one for user/player 
+Above the corresponding area is a scoreboard which goes up accordingly depending who wins.
+This is done by having two divs next to each other in an inline-block with an image inside the div.
+
 
 ##### Footer 
+For the footer i have decided to show a brief description of the rules . This is a black border-box ,with a width of 100%
 
 ##### Features To Be Implemented
 
