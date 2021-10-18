@@ -155,14 +155,20 @@ For the footer i have decided to show a brief description of the rules . This is
 ### Testing 
 
 ##### Plan
+I want there to be a message on the screen to display who has won the game each time as well as what they threw down ie You Won!,you threw Rock this beats the computers Scissors .
 
 ##### Implementation
+The message is in its own div positioned centrally near the top . But the main implementation is done in JavaScript . 
 
 ##### Test
+To test I played every Rock ,Paper and Scissor combination possible to make sure all wins losses and draws displyed the correct dialogue.
 
 ##### Result
+I have tested the game thouroughly and found it to be working correctly displaying acuratly who has won and lost and who has thrown what
 
 ##### Verdict
+The test has passed all the criteria and works like planned.
+
 
 ***
 ### Deployment
