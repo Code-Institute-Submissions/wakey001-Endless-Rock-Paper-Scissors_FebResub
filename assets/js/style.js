@@ -1,4 +1,4 @@
-
+/*DOM elements */
 const computerChoiceDisplay = document.getElementById('computer-choice');
 const  userChoiceDisplay = document.getElementById('user-choice');
 const resultDisplay = document.getElementById('result');
@@ -29,7 +29,7 @@ function generateComputerChoice(){
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
-
+/* Result to tell you who has won  */
 function getResult(){
     if(computerChoice === userChoice){
         result = 'This is a Draw!'
