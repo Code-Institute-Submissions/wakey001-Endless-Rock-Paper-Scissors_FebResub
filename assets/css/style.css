@@ -40,8 +40,7 @@ footer {
     margin: 3px;
     width: 80px;
     height: 40px;
-    border-style: dotted;
-    
+    border-style: dotted;   
 
 }
 #result{
@@ -62,5 +61,13 @@ footer {
     width: 49%;
 }
 
-
+#rock:hover{
+    cursor: pointer;
+}
+#paper:hover{
+    cursor: pointer;
+}
+#scissors:hover{
+    cursor: pointer;
+}
 
