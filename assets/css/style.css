@@ -37,10 +37,11 @@ footer {
 }
 .control{
     display: inline-block;
+    color:Black;
     margin: 3px;
     width: 80px;
     height: 40px;
-    border-style: dotted;   
+    border-style: solid;   
 
 }
 #result{
@@ -50,18 +51,20 @@ footer {
 .player{
     margin: 0;
     display: inline-block;
-    background-color:lightskyblue;
+    background-color:silver;
     width: 49%;
     
 }
 
 .computer{
     display: inline-block;
-    background-color: lime;
+    background-color:silver;
     width: 49%;
     
 }
-
+#rock{
+    background-color:red;
+}
 #rock:hover{
     cursor: pointer;
 }
