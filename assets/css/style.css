@@ -68,8 +68,14 @@ footer {
 #rock:hover{
     cursor: pointer;
 }
+#paper{
+    background-color:green;
+}
 #paper:hover{
     cursor: pointer;
+}
+#scissors{
+    background-color:blue;
 }
 #scissors:hover{
     cursor: pointer;
