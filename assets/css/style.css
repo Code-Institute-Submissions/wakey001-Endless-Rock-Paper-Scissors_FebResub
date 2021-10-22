@@ -63,19 +63,19 @@ footer {
     
 }
 #rock{
-    background-color:red;
+    background-color:rgb(25,171,160) ;
 }
 #rock:hover{
     cursor: pointer;
 }
 #paper{
-    background-color:green;
+    background-color:rgb(226,18,44);
 }
 #paper:hover{
     cursor: pointer;
 }
 #scissors{
-    background-color:blue;
+    background-color:rgb(179,204,51);
 }
 #scissors:hover{
     cursor: pointer;
