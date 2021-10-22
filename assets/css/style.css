@@ -47,16 +47,38 @@ footer {
 #result{
     height: 20px;
 }
-.score-area{
-    
+.score-board{
+    border: 5px solid black;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 36px;
+    font-family: 'Oxygen' ,'sans-serif';
+    font-weight:bold;
+    position: relative;
 
 }
-.scores{
 
+.badge{
+    background: red;
+    color:white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: 'Oxygen', 'sans-serif';
 }
-#score{
+#player-label{
+    position:absolute;
+    top: 20px;
+    left: -40px;
+}
+#computer-label{
+    position:absolute;
+    top:20px;
+    right:-40px;
+}
 
-}
 .player{
     margin: 0;
     display: inline-block;
