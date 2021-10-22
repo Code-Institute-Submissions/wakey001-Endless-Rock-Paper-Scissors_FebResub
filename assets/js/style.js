@@ -1,4 +1,8 @@
 /*DOM elements */
+const playerScore
+const computerScore
+const playerScoreSpan = document.querySelector('#player-score')
+const computerScoreSpan = document.querySelector('#computer-score')
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const  userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
