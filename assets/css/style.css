@@ -83,5 +83,19 @@ footer {
 img{
     width:100px ;
     height:100px ;
-    display:grid
+    
+}
+#player-img{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+#computer-img{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
 }
