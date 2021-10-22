@@ -54,7 +54,12 @@ function getResult(){
     }
     resultDisplay.innerHTML = result
 }
+/**
+ * Gets current score from DOM and increments by 1
+ */
+function incrementScore(){
 
+}
 
 
 

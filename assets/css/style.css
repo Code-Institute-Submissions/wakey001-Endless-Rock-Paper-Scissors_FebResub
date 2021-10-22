@@ -47,7 +47,16 @@ footer {
 #result{
     height: 20px;
 }
+.score-area{
+    
 
+}
+.scores{
+
+}
+#score{
+
+}
 .player{
     margin: 0;
     display: inline-block;
@@ -89,9 +98,6 @@ img{
     display:flex;
     flex-direction: column;
     align-items: center;
-    
-
-
 }
 #computer-img{
     display:flex;
