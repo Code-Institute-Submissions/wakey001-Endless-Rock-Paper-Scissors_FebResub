@@ -1,8 +1,9 @@
 /*DOM elements */
-const playerScore
-const computerScore
+let playerScore
+let computerScore
 const playerScoreSpan = document.querySelector('#player-score')
 const computerScoreSpan = document.querySelector('#computer-score')
+const scoreBoardDiv = document.querySelector('.score-board')
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const  userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
@@ -40,28 +41,43 @@ function getResult(){
     }
     if(computerChoice === 'rock' && userChoice === 'paper'){
         result = 'You Win!'
+        
+
     }
     if(computerChoice === 'rock' && userChoice === 'scissors'){
         result = 'You lost!'
+        
     }
     if(computerChoice === 'paper' && userChoice === 'scissors'){
         result= 'You Win!'
+        
     }
     if(computerChoice === 'paper' && userChoice === 'rock'){
         result= 'You lost!'
+        
     }
     if(computerChoice === 'scissors' && userChoice === 'rock'){
         result= 'You Win!'
+        
     }
     if(computerChoice === 'scissors' && userChoice === 'paper'){
         result= 'You lost!'
+        
     }
     resultDisplay.innerHTML = result
 }
 /**
  * Gets current score from DOM and increments by 1
  */
-function incrementScore(){
+function win(){
+    playerScore++;
+    playerScoreSpan.innerHTML = playerScore;
+    computerScoreSpan.innerHTML = computerScore;
+}
+function lose(){
+    computerScore++;
+    computerScoreSpan.innerHTML = computerScore;
+    playerScoreSpan.innerHTML = playerScore;
 
 }
 
