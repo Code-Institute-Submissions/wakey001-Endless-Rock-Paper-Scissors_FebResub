@@ -107,6 +107,7 @@ For the footer i have decided to show a brief description of the rules . This is
 #### Bugs
 
 * ##### Bug 
+An issue I came across was with my win() function being implemented . This fuction was to increment the score. The problem was the numbers on the score board would say NaN . 
 
  
 
@@ -114,24 +115,29 @@ For the footer i have decided to show a brief description of the rules . This is
 
 
 * ##### Verdict 
-
+After the fix I tested the game thouroughly to find It now works perfectly with the scoreboard working fluently.
 
 #### Mobile device
 
 * #### Bug 
+When on smaller devices under 500px  , the div expands when scissors is chosen making one side lop-sided
 
 
 * #### Fix 
 
 * ##### Verdict 
+After implementing the fix the mobile devices under 500px now display constant sizes reliably.
 
-#### Icons
+#### images
 * ##### Bug 
+When uploading my images of rock paper scissors . They load vertically by default and were both to the left of there div containers. This looked terrible so neede to be fixed. 
 
 *  ##### Fix
+I fixed them in css using display:flex , flex-direction: column , and align-items: center .
   
  
 * ##### Verdict
+This made them sit perfect in the middle of their div container whilst still retaining the vertical image layout.
  
 
 ***

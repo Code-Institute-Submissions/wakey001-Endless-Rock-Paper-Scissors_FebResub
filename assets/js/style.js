@@ -38,33 +38,40 @@ function generateComputerChoice(){
 function getResult(){
     if(computerChoice === userChoice){
         result = 'This is a Draw!'
+    
     }
     if(computerChoice === 'rock' && userChoice === 'paper'){
         result = 'You Win!'
-        
+         win();
 
     }
     if(computerChoice === 'rock' && userChoice === 'scissors'){
         result = 'You lost!'
-        
+        lose();
+
     }
     if(computerChoice === 'paper' && userChoice === 'scissors'){
         result= 'You Win!'
+        win();
         
     }
     if(computerChoice === 'paper' && userChoice === 'rock'){
         result= 'You lost!'
+        lose();
         
     }
     if(computerChoice === 'scissors' && userChoice === 'rock'){
         result= 'You Win!'
+        win();
         
     }
     if(computerChoice === 'scissors' && userChoice === 'paper'){
         result= 'You lost!'
+        lose();
         
     }
     resultDisplay.innerHTML = result
+
 }
 /**
  * Gets current score from DOM and increments by 1
@@ -73,6 +80,7 @@ function win(){
     playerScore++;
     playerScoreSpan.innerHTML = playerScore;
     computerScoreSpan.innerHTML = computerScore;
+    
 }
 function lose(){
     computerScore++;

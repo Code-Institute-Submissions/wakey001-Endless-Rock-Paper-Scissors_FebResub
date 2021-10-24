@@ -127,3 +127,8 @@ img{
     align-items: center;
 
 }
+/* media query for mobile under 500 px wide*/
+@media screen {
+    
+}
+
