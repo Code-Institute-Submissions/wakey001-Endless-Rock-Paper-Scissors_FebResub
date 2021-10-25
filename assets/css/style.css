@@ -130,18 +130,22 @@ img{
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 350px){
         div h2{
-            font-size: 70%;
+            font-size: 65%;
         }
         img{
-            height:100px ;
-            width:100px ;
+            height: 75px;
+            width: 75px;
         }
         
     }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 600px) {
+        div h2{
+            font-size: 75%;
+        }
         img{
-            height:150px ;
-            width:150px ;
+
+            height: 150px ;
+            width: 150px ;
         }
         
     }
