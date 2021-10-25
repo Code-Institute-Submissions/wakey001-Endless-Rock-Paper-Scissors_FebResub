@@ -112,7 +112,7 @@ An issue I came across was with my win() function being implemented . This fucti
  
 
 * ##### Fix 
-
+Could not figure out the problem so turned to slack for help . This put me in the direction of looking at what my variables values were which turned out to be the main problem . I had not declared that the variable for playerScore and computerScore needed to be 0 . 
 
 * ##### Verdict 
 After the fix I tested the game thouroughly to find It now works perfectly with the scoreboard working fluently.
@@ -120,13 +120,14 @@ After the fix I tested the game thouroughly to find It now works perfectly with 
 #### Mobile device
 
 * #### Bug 
-When on smaller devices under 500px  , the div expands when scissors is chosen making one side lop-sided
+When on smaller devices under 350px  , the div expands when scissors is chosen making one side lop-sided
 
 
 * #### Fix 
+I decided the best option was to decrease the font size . I played around with different sizes and settled at 70% .
 
 * ##### Verdict 
-After implementing the fix the mobile devices under 500px now display constant sizes reliably.
+After implementing the fix the mobile devices under 350px now display constant sizes reliably and does not increase or decrease the size of the div.
 
 #### images
 * ##### Bug 
