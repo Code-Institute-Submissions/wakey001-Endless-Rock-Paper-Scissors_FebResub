@@ -1,11 +1,12 @@
 # wakey001/Rock Paper Scissors
 ***
+Rock, Paper, Scissors . This game is for adults and children is a  fun , intuitive replayable game that is played against the computer.
 ## Rock Paper Scissors Game
 ![ami image to be done](ami-readme.png)
 ***
 
-## Goal For This Project
-Hi and welcome to my game Rock, Paper, Scissors . The goal for this project is to have a fully functional , fun , intuitive replayable Rock, Paper,Scissors game .
+## Goals For This Project
+ 
 ***
 
 
