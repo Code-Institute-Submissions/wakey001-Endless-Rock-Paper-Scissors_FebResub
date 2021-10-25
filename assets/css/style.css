@@ -128,9 +128,23 @@ img{
 
 }
 /* media query for mobile under 500 px wide*/ 
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 350px){
+        div h2{
+            font-size: 70%;
+        }
+    }
+            
+                    
+            
 
         
-    }
+
+        
+            
+        
+        
+
+        
+    
 
 
