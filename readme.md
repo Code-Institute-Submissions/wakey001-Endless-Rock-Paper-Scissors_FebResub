@@ -199,10 +199,13 @@ To run it locally on gitpod follow this method:
 
 ### Credits
 #### Content-Media-Inspiration
+My inspiration was a mixture of codeinstitute, youtube two youtubers inparticular and my personal view on how I wanted it to look.
 
 #### Images 
 
 #### Acknowledgements
+I'd like to firstly acknowledge my mentor Simen D , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . Nameley JavaScript parseInt.
+
 
 
 

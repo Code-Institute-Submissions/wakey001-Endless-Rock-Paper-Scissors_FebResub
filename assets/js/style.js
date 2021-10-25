@@ -1,9 +1,9 @@
 /*DOM elements */
 let playerScore
 let computerScore
-const playerScoreSpan = document.querySelector('#player-score')
-const computerScoreSpan = document.querySelector('#computer-score')
-const scoreBoardDiv = document.querySelector('.score-board')
+const playerScoreSpan = document.querySelector('#player-score');
+const computerScoreSpan = document.querySelector('#computer-score');
+const scoreBoardDiv = document.querySelector('.score-board');
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const  userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
@@ -78,14 +78,14 @@ function getResult(){
  */
 function win(){
     playerScore++;
-    playerScoreSpan.innerHTML = playerScore;
-    computerScoreSpan.innerHTML = computerScore;
+    parseInt(playerScoreSpan.innerHTML) = playerScore;
+    parseInt(computerScoreSpan.innerHTML) = computerScore;
     
 }
 function lose(){
     computerScore++;
-    computerScoreSpan.innerHTML = computerScore;
-    playerScoreSpan.innerHTML = playerScore;
+    parseInt(computerScoreSpan.innerHTML) = computerScore;
+    parseInt(playerScoreSpan.innerHTML) = playerScore;
 
 }
 
