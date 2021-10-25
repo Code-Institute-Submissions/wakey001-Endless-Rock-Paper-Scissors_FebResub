@@ -124,7 +124,7 @@ When on smaller devices under 350px  , the div expands when scissors is chosen m
 
 
 * #### Fix 
-I decided the best option was to decrease the font size . I played around with different sizes and settled at 70% .
+I decided the best option was to decrease the font size using a media query for screens under 350px. I targeted divs with h2 headings and played around with different sizes before settling at 70% .
 
 * ##### Verdict 
 After implementing the fix the mobile devices under 350px now display constant sizes reliably and does not increase or decrease the size of the div.
