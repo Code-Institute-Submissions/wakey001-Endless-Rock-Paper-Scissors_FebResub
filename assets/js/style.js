@@ -1,17 +1,16 @@
 /*DOM elements */
-let playerScore
-let computerScore
-const playerScoreSpan = document.querySelector('#player-score');
-const computerScoreSpan = document.querySelector('#computer-score');
+let playerScore = 0;
+let computerScore = 0;
+const playerScoreSpan = document.getElementById('player-score');
+const computerScoreSpan = document.getElementById('computer-score');
 const scoreBoardDiv = document.querySelector('.score-board');
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const  userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
 const possibleChoices = document.querySelectorAll('button');
-let userChoice
-let computerChoice
-let result
-
+let userChoice ;
+let computerChoice ;
+let result ;
 /*Event listener for USER buttons */
 
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
@@ -42,7 +41,7 @@ function getResult(){
     }
     if(computerChoice === 'rock' && userChoice === 'paper'){
         result = 'You Win!'
-         win();
+        win();
 
     }
     if(computerChoice === 'rock' && userChoice === 'scissors'){
@@ -78,14 +77,14 @@ function getResult(){
  */
 function win(){
     playerScore++;
-    parseInt(playerScoreSpan.innerHTML) = playerScore;
-    parseInt(computerScoreSpan.innerHTML) = computerScore;
+    playerScoreSpan.innerHTML = playerScore;
+    computerScoreSpan.innerHTML = computerScore;
     
 }
 function lose(){
     computerScore++;
-    parseInt(computerScoreSpan.innerHTML) = computerScore;
-    parseInt(playerScoreSpan.innerHTML) = playerScore;
+    computerScoreSpan.innerHTML = computerScore;
+    playerScoreSpan.innerHTML = playerScore;
 
 }
 
