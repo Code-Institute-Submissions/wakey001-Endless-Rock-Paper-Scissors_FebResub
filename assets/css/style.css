@@ -139,13 +139,13 @@ img{
         
     }
     @media screen and (max-width: 600px) {
+
         div h2{
             font-size: 75%;
         }
         img{
-
-            height: 150px ;
-            width: 150px ;
+            height: 100px;
+            width: 100px ;
         }
         
     }
