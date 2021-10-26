@@ -29,8 +29,26 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
       * Color
       * Structure
      
-* Features
-    * Existing Features
+### Features
+  #### Existing Features
+  * Header
+  Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
+  The title also tells the user what game they are playing.
+  
+  * The Game Choices
+  The game includes clear instructions and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
+
+  * The Game Results
+  The winner is announced to the userunder the interactive buttons.
+  The score is updated for either the user or computer depending who wins.
+  The winner and scoreboard are clear for the user to understand.
+
+  * Footer
+  The footer section shows the rules of paper rock scissors.
+
+
+
+
     * Features To Be Implemented
 * Technology Used
     * Languages
@@ -82,28 +100,6 @@ Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have 
 #### Icons
  Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are in fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 #### Colors
-
-
-***
-
-### Features 
-
-#### Existing Features
-
-##### Main Images
-
-The images I have used were borrowed from google images and cropped and flipped in paint to create negatives of each other. I chose these hand guestures over the actutual physical images as imo its makes the game more fun and silly which is what it is really , a simple game that can be played with hands too.
-
-##### Game Area
-For the game area I have decided to have apposing images as I feel this gives the game an arcade like vs feel .
- One side for the computer and one for user/player and above this corresponding area is a scoreboard which goes up accordingly depending who wins.
-
-
-##### Footer 
-For the footer i have decided to show a brief description of the rules . This is a black border-box with a width of 100% and text aligned centraly and in white to stand out .
-
-##### Features To Be Implemented
- In the future I wish to add lizard and spock to the game as well as updating the styling to perhaps more of a simple styling as apposed to the arcade like layout of this one.
 
 #### Bugs
 
