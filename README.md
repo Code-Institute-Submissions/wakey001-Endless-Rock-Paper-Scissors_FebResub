@@ -162,20 +162,11 @@ This made them sit perfect in the middle of their div container whilst still ret
 
 ### Testing 
 
-##### Plan
-I want there to be a message on the screen to display who has won the game each time as well as what they threw down ie You Won!,you threw Rock this beats the computers Scissors .
-
-##### Implementation
-The message is in its own div positioned centrally near the top . But the main implementation is done in JavaScript . 
-
-##### Test
-To test I played every Rock ,Paper and Scissor combination possible to make sure all wins losses and draws displyed the correct dialogue.
-
-##### Result
-I have tested the game thouroughly and found it to be working correctly displaying acuratly who has won and lost and who has thrown what
-
-##### Verdict
-The test has passed all the criteria and works like planned.
+* I tested playing this game on different browsers : Chrome, firefox, Safari.
+* I confirmed the game always works correctly.
+* I confirmed the header, instructions, options are al readable and easy to understand.
+*  I confirmed that all colours and fonts chosen are easy to read and accessable by running it through lighthouse in devtools.
+![]
 
 
 ***
@@ -185,7 +176,7 @@ This project was deployed using github using the following method:
 1.After logging into github.com open repository
 2.Click on settings then on the left find the pages section 
 3.Once in pages click on master branch and then save 
-4.Now a link should appear and in a few moments be able to be clicked http://wakey001.github.io/euro4-modern-classics/
+4.Now a link should appear and in a few moments be able to be clicked 
 5.This is now a live website than can be viewed from any device
 
 To run it locally on gitpod follow this method:
