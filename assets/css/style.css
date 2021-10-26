@@ -126,6 +126,14 @@ img{
     
 
 }
+#player-weapon{
+    background-color:yellow ;
+
+}
+#computer-weapon{
+    background-color: turquoise;
+
+}
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 400px){
         div h2{
