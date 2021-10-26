@@ -2,43 +2,50 @@
 ***
 Rock, Paper, Scissors . This game is for adults and children is a  fun , intuitive replayable game that is played against the computer.
 ## Rock Paper Scissors Game
-![ami image to be done](ami-readme.png)
+![ami image ](https://user-images.githubusercontent.com/83303996/138966439-d510fef3-6093-4c8b-bd6d-5260c8707c63.PNG)
     
 ### Features
   #### Existing Features
   * Header
     * Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
     * The title also tells the user what game they are playing.
-  
+
+  ![Header image](https://user-images.githubusercontent.com/83303996/138966900-b606a729-5150-497b-b70c-fb5ef15c592c.PNG)
+
+    
   * The Game Choices
     * The game includes clear instructions and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
+
+    ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/138968232-563d4c80-e5bd-46a7-982e-14c2300db878.PNG)
 
   * The Game Results
     * The winner is announced to the userunder the interactive buttons.
     * The score is updated for either the user or computer depending who wins.
     * The winner and scoreboard are clear for the user to understand.
 
+     ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/138968303-e33800db-ad14-425b-9bc3-cd893dd64ac4.PNG)
   * Footer
      * The footer section shows the rules of paper rock scissors.
+     ![](https://user-images.githubusercontent.com/83303996/138966887-8d473df1-3d2a-480e-81ea-9627b4c222ba.PNG)
 
  * Features To Be Implemented
      * In the future Id like to add the Lizard spock from the big bang theory.
-     
-### User Goals
+
+#### User Goals
 * The game should have relevant content
 * The game should be easy to use on all platforms
 * The game should be intuitive and look modern
 * The game should be fun, exciting
 * The game should work without fault or glitches 
 
-### User Stories
+#### User Stories
 * As a user I want the game to be easy to navigate
 * As a user I want the game to have useful information
 * As a user I want the game to be exciting  
 * As a user I want the game to be visually stimulating
 * As a user I want the game to be current and modern in design
 
-### Site Owners Goals
+#### Site Owners Goals
 * To have a working game which is fun to use
 * The game sould be easy and fun to use 
 * The code should be easy enough to read as to be potentially upgraded or extened to include other weapons such as spock or lizard in the future
@@ -127,7 +134,8 @@ This made them sit perfect in the middle of their div container whilst still ret
 * I confirmed the game always works correctly.
 * I confirmed the header, instructions, options are al readable and easy to understand.
 *  I confirmed that all colours and fonts chosen are easy to read and accessable by running it through lighthouse in devtools.
-![]
+
+![Lighthouse Performance](https://user-images.githubusercontent.com/83303996/138968391-2a535cac-70a4-40c8-aee7-32de647f0860.PNG)
 
 
 ***
@@ -156,9 +164,11 @@ To run it locally on gitpod follow this method:
 My inspiration was a mixture of codeinstitute, youtube two youtubers inparticular and my personal view on how I wanted it to look.
 
 #### Images 
+The Images I obtained are from google images and flipped to get the mirror image for the comuter side via [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally) This site became a saviour of mine as its quick and easy . I'd spent a number of hours in paint flipping but losing transparancy when doing so .
+Which is not the case with the website above.
 
 #### Acknowledgements
-I'd like to firstly acknowledge my mentor Simen D , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . Nameley JavaScript parseInt.
+I'd like to firstly acknowledge my mentor Simen D , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . 
 
 
 
