@@ -3,64 +3,27 @@
 Rock, Paper, Scissors . This game is for adults and children is a  fun , intuitive replayable game that is played against the computer.
 ## Rock Paper Scissors Game
 ![ami image to be done](ami-readme.png)
-***
-
-## Goals For This Project
- 
-***
-
-
-
-## Table Of Contents
-* Ux
-    * User Goals
     
-    * User Stories
-   
-    * Site Owner Goals
-    
-    * User Requirements And Expectations
-      * Requirements 
-      * Expectations
-        
-    * Design Choices
-      * Fonts
-      * Icons
-      * Color
-      * Structure
-     
 ### Features
   #### Existing Features
   * Header
-  Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
-  The title also tells the user what game they are playing.
+    * Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
+    * The title also tells the user what game they are playing.
   
   * The Game Choices
-  The game includes clear instructions and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
+    * The game includes clear instructions and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
 
   * The Game Results
-  The winner is announced to the userunder the interactive buttons.
-  The score is updated for either the user or computer depending who wins.
-  The winner and scoreboard are clear for the user to understand.
+    * The winner is announced to the userunder the interactive buttons.
+    * The score is updated for either the user or computer depending who wins.
+    * The winner and scoreboard are clear for the user to understand.
 
   * Footer
-  The footer section shows the rules of paper rock scissors.
+     * The footer section shows the rules of paper rock scissors.
 
-
-
-
-    * Features To Be Implemented
-    In the future Id like to add the Lizard spock from the big bang theory.
-    
-* Technology Used
-    * Languages
-    * Tools And Libraries
-* Testing
-* Deployment
-* Credits
-***
-## Ux
-***
+ * Features To Be Implemented
+     * In the future Id like to add the Lizard spock from the big bang theory.
+     
 ### User Goals
 * The game should have relevant content
 * The game should be easy to use on all platforms
