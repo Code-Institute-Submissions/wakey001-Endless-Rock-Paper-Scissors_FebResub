@@ -50,6 +50,8 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 
 
     * Features To Be Implemented
+    In the future Id like to add the Lizard spock from the big bang theory.
+    
 * Technology Used
     * Languages
     * Tools And Libraries
