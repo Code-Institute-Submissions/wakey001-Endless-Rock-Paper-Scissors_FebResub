@@ -82,14 +82,14 @@ footer {
 .player{
     margin: 0;
     display: inline-block;
-    background-color:silver;
+    background-color:blueviolet;
     width: 49%;
     
 }
 
 .computer{
     display: inline-block;
-    background-color:silver;
+    background-color:red;
     width: 49%;
     
 }
@@ -114,6 +114,7 @@ footer {
 img{
     width:200px ;
     height:200px ;
+
     
 }
 #player-img{
@@ -128,32 +129,13 @@ img{
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 400px){
         div h2{
-            font-size: 85%;
+            font-size: 95%;
         }
         img{
             height: 200px;
             width: 200px;
         }
-        
-    }
-    @media screen and (max-width: 600px) {
-
-        div h2{
-            font-size: 85%;
-        }
-        img{
-            height: 80px;
-            width: 80px ;
-        }
-        
-    }
-    @media screen and (max-width: 1300){
-        img{
-            height: 120px;
-            width: 120px;
-        }
-    }
-        
+    }    
     
             
                     
