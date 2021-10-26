@@ -8,9 +8,13 @@ const computerChoiceDisplay = document.querySelector('#computer-choice');
 const  userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
 const possibleChoices = document.querySelectorAll('button');
+const playerImage = document.getElementById('player-img');
+const computerImage = document.getElementById('computer-img');
+const choices = ["rock", "paper", "scissors"];
 let userChoice ;
 let computerChoice ;
 let result ;
+
 /*Event listener for USER buttons */
 
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
@@ -32,6 +36,8 @@ function generateComputerChoice(){
         computerChoice = 'paper'
     }
     computerChoiceDisplay.innerHTML = computerChoice
+    computerImage.src = `assets/images/${choices[computerChoice]}.png`
+    computerImage.alt = choices[computerChoice];
 }
 /* Result to tell you who has won  */
 function getResult(){
