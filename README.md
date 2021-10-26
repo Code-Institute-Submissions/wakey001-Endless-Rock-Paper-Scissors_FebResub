@@ -19,7 +19,7 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
     ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/138968232-563d4c80-e5bd-46a7-982e-14c2300db878.PNG)
 
   * The Game Results
-    * The winner is announced to the userunder the interactive buttons.
+    * The winner is announced to the user under the interactive buttons.
     * The score is updated for either the user or computer depending who wins.
     * The winner and scoreboard are clear for the user to understand.
 
@@ -68,46 +68,46 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 
 
 #### Fonts
-Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with FONT HERE as I feel in my opinion this is a modern and current feel and is easy to read.I also chose the same for my header as I feel this contasts well with the main text as when larger its flair is even more noticabe in my opinion.
+* Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with FONT HERE as I feel in my opinion this is a modern and current feel and is easy to read.I also chose the same for my header as I feel this contasts well with the main text as when larger its flair is even more noticabe in my opinion.
 #### Icons
- Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are in fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
+* Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are in fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 #### Colors
 
 #### Bugs
 
 * ##### Bug 
-An issue I came across was with my win() function being implemented . This fuction was to increment the score. The problem was the numbers on the score board would say NaN . 
+  * An issue I came across was with my win() function being implemented . This fuction was to increment the score. The problem was the numbers on the score board would say NaN . 
 
  
 
 * ##### Fix 
-Could not figure out the problem so turned to slack for help . This put me in the direction of looking at what my variables values were which turned out to be the main problem . I had not declared that the variable for playerScore and computerScore needed to be 0 . 
+  * Could not figure out the problem so turned to slack for help . This put me in the direction of looking at what my variables values were which turned out to be the main problem . I had not declared that the variable for playerScore and computerScore needed to be 0 . 
 
 * ##### Verdict 
-After the fix I tested the game thouroughly to find It now works perfectly with the scoreboard working fluently.
+  * After the fix I tested the game thouroughly to find It now works perfectly with the scoreboard working fluently.
 
 #### Mobile device
 
 * #### Bug 
-When on smaller devices under 350px  , the div expands when scissors is chosen making one side lop-sided
+  * When on smaller devices under 350px  , the div expands when scissors is chosen making one side lop-sided
 
 
 * #### Fix 
-I decided the best option was to decrease the font size using a media query for screens under 350px. I targeted divs with h2 headings and played around with different sizes before settling at 70% .
+  * I decided the best option was to decrease the font size using a media query for screens under 350px. I targeted divs with h2 headings and played around with different sizes before settling at 70% .
 
 * ##### Verdict 
-After implementing the fix the mobile devices under 350px now display constant sizes reliably and does not increase or decrease the size of the div.
+  * After implementing the fix the mobile devices under 350px now display constant sizes reliably and does not increase or decrease the size of the div.
 
 #### images
 * ##### Bug 
-When uploading my images of rock paper scissors . They load vertically by default and were both to the left of there div containers. This looked terrible so neede to be fixed. 
+  * When uploading my images of rock paper scissors . They load vertically by default and were both to the left of there div containers. This looked terrible so neede to be fixed. 
 
 *  ##### Fix
-I fixed them in css using display:flex , flex-direction: column , and align-items: center .
+  * I fixed them in css using display:flex , flex-direction: column , and align-items: center .
   
  
 * ##### Verdict
-This made them sit perfect in the middle of their div container whilst still retaining the vertical image layout.
+  * This made them sit perfect in the middle of their div container whilst still retaining the vertical image layout.
  
 
 ***
@@ -161,14 +161,14 @@ To run it locally on gitpod follow this method:
 
 ### Credits
 #### Content-Media-Inspiration
-My inspiration was a mixture of codeinstitute, youtube two youtubers inparticular and my personal view on how I wanted it to look.
+* My inspiration was a mixture of codeinstitute, youtube two youtubers inparticular and my personal view on how I wanted it to look.
 
 #### Images 
-The Images I obtained are from google images and flipped to get the mirror image for the comuter side via [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally) This site became a saviour of mine as its quick and easy . I'd spent a number of hours in paint flipping but losing transparancy when doing so .
+* The Images I obtained are from google images and flipped to get the mirror image for the comuter side via [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally) This site became a saviour of mine as its quick and easy . I'd spent a number of hours in paint flipping but losing transparancy when doing so .
 Which is not the case with the website above.
 
 #### Acknowledgements
-I'd like to firstly acknowledge my mentor Simen D , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . 
+* I'd like to firstly acknowledge my mentor Simen D , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . 
 
 
 
