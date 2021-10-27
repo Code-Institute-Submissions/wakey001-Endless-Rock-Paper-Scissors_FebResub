@@ -163,8 +163,12 @@ img{
 }
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 500px){
+        body{
+            letter-spacing: 1px;
+        }
         h2{
             font-size: 65%;
+            
         }
         img{
             height: 100px;
