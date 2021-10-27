@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
     
 /*/Main html structure*/
 html {
@@ -13,7 +14,8 @@ body {
 }
 header {
     text-align:center;
-    background-color:#BBD686 ;
+    background-color:#BBD686;
+    font-family: 'Irish Grover' , sans-serif;
 }
 footer {
     
@@ -64,7 +66,7 @@ footer {
 
 .badge{
 
-    color:white;
+    color:black;
     font-size: 14px;
     padding: 2px 10px;
     font-family: 'Oxygen', 'sans-serif';
@@ -72,13 +74,13 @@ footer {
 #player-label{
     position:absolute;
     top: 20px;
-    left: -40px;
+    left: -42px;
     background: #dff2d8;
 }
 #computer-label{
     position:absolute;
     top:20px;
-    right:-40px;
+    right:-82px;
     background: #FF36AB;
 }
 
