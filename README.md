@@ -73,6 +73,13 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 * Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are in fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 #### Colors
 
+### Testing 
+
+* My results from the lighthouse in devtools are below. With no errors inmy CSS or HTML when passed through the validators mentioned in the tools section.
+
+
+![Lighthouse Performance](https://user-images.githubusercontent.com/83303996/138968391-2a535cac-70a4-40c8-aee7-32de647f0860.PNG)
+
 #### Bugs
 
 * ##### Bug 
@@ -128,14 +135,7 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 * []
 ***
 
-### Testing 
 
-* I tested playing this game on different browsers : Chrome, firefox, Safari.
-* I confirmed the game always works correctly.
-* I confirmed the header, instructions, options are al readable and easy to understand.
-*  I confirmed that all colours and fonts chosen are easy to read and accessable by running it through lighthouse in devtools.
-
-![Lighthouse Performance](https://user-images.githubusercontent.com/83303996/138968391-2a535cac-70a4-40c8-aee7-32de647f0860.PNG)
 
 
 ***
