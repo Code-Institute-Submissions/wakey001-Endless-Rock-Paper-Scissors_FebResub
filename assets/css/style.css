@@ -101,6 +101,7 @@ footer {
     display: inline-block;
     background-color:#DFF2D8;
     width: 49%;
+    height: 50%;
     
 }
 
@@ -108,6 +109,7 @@ footer {
     display: inline-block;
     background-color:#ff36ab;
     width: 49%;
+    height:50%
     
 }
 #rock{
@@ -144,9 +146,9 @@ img{
 
 }
 /* media query for mobile under 500 px wide*/ 
-    @media screen and (max-width: 400px){
-        div h2{
-            font-size: 95%;
+    @media screen and (max-width: 500px){
+        body{
+            font-size: 10px;
         }
         img{
             height: 100px;
@@ -159,23 +161,8 @@ img{
            margin-right: auto;
         }
         #result{
-            text-align: left;
+            
+            font-size: 60%;
+
         }
-
-    }    
-    
-            
-                    
-            
-
-        
-
-        
-            
-        
-        
-
-        
-    
-
-
+    }
