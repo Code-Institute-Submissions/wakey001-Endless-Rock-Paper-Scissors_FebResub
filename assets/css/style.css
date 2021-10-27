@@ -33,7 +33,7 @@ footer {
     box-sizing: border-box;
     color: #fff;
     background-color: #000;
-    min-height: 70px;
+    min-height: 40px;
     position:fixed;
 }
 
@@ -102,16 +102,19 @@ footer {
     margin: 0;
     display: inline-block;
     background-color:#DFF2D8;
-    width: 49%;
-    height: 50%;
+    width:49%;
+    height:50%;
+    position: relative;
     
 }
 
 .computer{
+    margin: 0;
     display: inline-block;
     background-color:#ff36ab;
     width: 49%;
-    height:50%
+    height: 50%;
+    position:relative;
     
 }
 #rock{
@@ -140,10 +143,21 @@ img{
 }
 #player-img{
     display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+
+    
+
     
 }
 #computer-img{
     display:inline-block;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
     
 
 }
