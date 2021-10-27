@@ -121,18 +121,18 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 ### Technologies Used
 
 #### Languages
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [JS](https://en.wikipedia.org/wiki/JS)
+* [Html](https://en.wikipedia.org/wiki/HTML5)
+* [Css](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JS)
 #### Libraries And Frameworks
-* [FONT AWESOME](https://fontawesome.com/)
-* [GOOGLE FONTS](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
 #### Tools
-* [GIT HUB](https://github.com/)
-* [GIT POD](https://www.gitpod.io/docs/configure/)
-* [W3C HTML VALIDATION SERVICE](https://validator.w3.org/)
-* [W3C CSS VALIDATION SERVICE](https://jigsaw.w3.org/css-validator/)
-* []
+* [Git hub](https://github.com/)
+* [Git pod](https://www.gitpod.io/docs/configure/)
+* [W3c Html Validation service](https://validator.w3.org/)
+* [W3c Css Validation service](https://jigsaw.w3.org/css-validator/)
+* [JSHint JavaScript Validator](https://jshint.com/)
 ***
 
 
@@ -168,7 +168,7 @@ To run it locally on gitpod follow this method:
 Which is not the case with the website above.
 
 #### Acknowledgements
-* I'd like to firstly acknowledge my mentor Simen Daehlin , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . 
+* I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret) , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . 
 
 
 
