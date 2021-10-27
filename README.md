@@ -68,9 +68,18 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 
 
 #### Fonts
-* Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with FONT HERE as I feel in my opinion this is a modern and current feel and is easy to read.I also chose the same for my header as I feel this contasts well with the main text as when larger its flair is even more noticabe in my opinion.
+* Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with [Simonetta](https://fonts.google.com/specimen/Simonetta?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom&query=ox) as I feel in my opinion this is a modern and stylish and current feel and is easy to read.I also chose the same for my header as I feel this contasts well with the main text as when larger its flair is even more noticabe in my opinion.
+I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Grover?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom) 
+* Ive gone with this as its a bit wacky and out there and I wanted to give the game a cool looking but readable font.
+
 #### Icons
-* Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are in fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
+* Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are :
+[Rock](https://fontawesome.com/v5.15/icons/hand-rock?style=solid)
+[Paper](https://fontawesome.com/v5.15/icons/hand-paper?style=solid)
+[Scissors](https://fontawesome.com/v5.15/icons/hand-scissors?style=solid)
+
+
+* These fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 #### Colors
 ![coolers pallette](https://user-images.githubusercontent.com/83303996/139056828-93cbe9e5-b1d3-428e-8320-93820ad842f4.PNG)
  

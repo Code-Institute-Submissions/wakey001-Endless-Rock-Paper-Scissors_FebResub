@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Simonetta&display=swap');
     
 /*/Main html structure*/
 html {
@@ -8,7 +7,7 @@ html {
 
 }
 body {
-    font-family: 'Oxygen' ,sans-serif;
+    font-family: 'Simonetta' ,sans-serif;
     margin: 0;
 
 }
