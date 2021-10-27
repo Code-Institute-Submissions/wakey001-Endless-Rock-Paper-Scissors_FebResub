@@ -15,6 +15,13 @@ header {
     text-align:center;
     background-color:#BBD686;
     font-family: 'Irish Grover' , sans-serif;
+    overflow: auto;
+    margin-bottom: -2px;
+}
+h2{
+    margin: 0;
+    padding: 1px;
+    line-height: 3;
 }
 footer {
     
@@ -28,17 +35,18 @@ footer {
     background-color: #000;
     min-height: 70px;
 }
-h2{
-    margin: 0;
-    line-height: 3;
-}
+
+
 
 /*Game Area*/
 .game-area{
     background-color: #BBD686;
     text-align: center;
     width:100%;
-    margin-top: 0;
+    overflow: auto;
+    padding: 0px;
+    margin: 0;
+    
     
     
 }
