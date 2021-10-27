@@ -28,12 +28,17 @@ footer {
     background-color: #000;
     min-height: 70px;
 }
+h2{
+    margin: 0;
+    line-height: 3;
+}
 
 /*Game Area*/
 .game-area{
     background-color: #BBD686;
     text-align: center;
     width:100%;
+    margin-top: 0;
     
     
 }
