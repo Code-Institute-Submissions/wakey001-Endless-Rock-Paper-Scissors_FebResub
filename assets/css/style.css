@@ -25,7 +25,7 @@ h2{
 }
 footer {
     
-    width: 100%;
+    width: 100vw;
     text-align: center;
     left: 0;
     bottom: 0;
@@ -34,6 +34,7 @@ footer {
     color: #fff;
     background-color: #000;
     min-height: 70px;
+    position:fixed;
 }
 
 
@@ -42,10 +43,11 @@ footer {
 .game-area{
     background-color: #BBD686;
     text-align: center;
-    width:100%;
+    width:100vw;
     overflow: auto;
     padding: 0px;
     margin: 0;
+    height:100vh ;
     
     
     
@@ -147,8 +149,8 @@ img{
 }
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 500px){
-        body{
-            font-size: 10px;
+        h2{
+            font-size: 65%;
         }
         img{
             height: 100px;
@@ -162,7 +164,7 @@ img{
         }
         #result{
             
-            font-size: 60%;
+            font-size: 70%;
 
         }
     }
