@@ -36,8 +36,8 @@ function generateComputerChoice(){
         computerChoice = 'paper'
     }
     computerChoiceDisplay.innerHTML = computerChoice
-    computerImage.src = `assets/images/${choices[computerChoice]}.png`
-    computerImage.alt = choices[computerChoice];
+    computerImage.src = `assets/images/${computerChoice}.png`
+    computerImage.alt = computerChoice;
 }
 /* Result to tell you who has won  */
 function getResult(){
