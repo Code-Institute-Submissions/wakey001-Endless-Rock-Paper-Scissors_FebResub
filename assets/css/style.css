@@ -13,6 +13,7 @@ body {
 }
 header {
     text-align:center;
+    background-color:#BBD686 ;
 }
 footer {
     
@@ -24,12 +25,12 @@ footer {
     box-sizing: border-box;
     color: #fff;
     background-color: #000;
-    min-height: 80px;
+    min-height: 70px;
 }
 
 /*Game Area*/
 .game-area{
-    background-color: gray;
+    background-color: #BBD686;
     text-align: center;
     width:100%;
     
@@ -48,7 +49,7 @@ footer {
     height: 20px;
 }
 .score-board{
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 4px;
     text-align: center;
     width: 200px;
@@ -62,7 +63,7 @@ footer {
 }
 
 .badge{
-    background: red;
+
     color:white;
     font-size: 14px;
     padding: 2px 10px;
@@ -72,41 +73,43 @@ footer {
     position:absolute;
     top: 20px;
     left: -40px;
+    background: #dff2d8;
 }
 #computer-label{
     position:absolute;
     top:20px;
     right:-40px;
+    background: #FF36AB;
 }
 
 .player{
     margin: 0;
     display: inline-block;
-    background-color:blueviolet;
+    background-color:#DFF2D8;
     width: 49%;
     
 }
 
 .computer{
     display: inline-block;
-    background-color:red;
+    background-color:#ff36ab;
     width: 49%;
     
 }
 #rock{
-    background-color:rgb(25,171,160) ;
+    background-color:#f5a65b ;
 }
 #rock:hover{
     cursor: pointer;
 }
 #paper{
-    background-color:rgb(226,18,44);
+    background-color:#dff2d8;
 }
 #paper:hover{
     cursor: pointer;
 }
 #scissors{
-    background-color:rgb(179,204,51);
+    background-color:#CEC2FF;
 }
 #scissors:hover{
     cursor: pointer;
