@@ -72,7 +72,9 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 #### Icons
 * Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are in fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 #### Colors
-
+![coolers pallette](https://user-images.githubusercontent.com/83303996/139056828-93cbe9e5-b1d3-428e-8320-93820ad842f4.PNG)
+ 
+* To create the colour scheme for the game, I used ![coolers](https://coolors.co/bbd686-dff2d8-cec2ff-ff36ab-f5a65b). I went to the create pallette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
 ### Testing 
 
 * My results from the lighthouse in devtools are below. With no errors inmy CSS or HTML when passed through the validators mentioned in the tools section.
