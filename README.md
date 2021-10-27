@@ -179,7 +179,7 @@ To run it locally on gitpod follow this method:
 Which is not the case with the website above.
 
 #### Acknowledgements
-* I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret) , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley .Id also like to thank the members of slack who helped me with some issues I had . 
+* I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret) , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley. Id also like to thank the members of slack who helped me with some issues I had . 
 
 
 
