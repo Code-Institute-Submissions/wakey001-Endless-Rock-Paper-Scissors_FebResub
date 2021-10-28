@@ -2,7 +2,7 @@
 ***
 Rock, Paper, Scissors . This game is for adults and children is a  fun , intuitive replayable game that is played against the computer.
 ## Rock Paper Scissors Game
-![ami image ](https://user-images.githubusercontent.com/83303996/138966439-d510fef3-6093-4c8b-bd6d-5260c8707c63.PNG)
+![ami image ](https://user-images.githubusercontent.com/83303996/139325860-cd7d838c-e7b1-48c0-af5d-796b10825671.PNG))
     
 ### Features
   #### Existing Features
@@ -10,20 +10,20 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
     * Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
     * The title also tells the user what game they are playing.
 
-  ![Header image](https://user-images.githubusercontent.com/83303996/138966900-b606a729-5150-497b-b70c-fb5ef15c592c.PNG)
+  ![Header image](https://user-images.githubusercontent.com/83303996/139327220-192d64d9-eca5-4881-aff0-7556b7c6e3a0.PNG)
 
     
   * The Game Choices
     * The game includes clear instructions and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
 
-    ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/138968232-563d4c80-e5bd-46a7-982e-14c2300db878.PNG)
+    ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/139327196-08eec25b-186a-4ab5-8df1-b8d3a48ceafb.PNG)
 
   * The Game Results
     * The winner is announced to the user under the interactive buttons.
     * The score is updated for either the user or computer depending who wins.
     * The winner and scoreboard are clear for the user to understand.
 
-     ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/138968303-e33800db-ad14-425b-9bc3-cd893dd64ac4.PNG)
+     ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/139327289-2ed2c1da-ad25-4716-8e34-965e268a06dd.PNG)
   * Footer
      * The footer section shows the rules of paper rock scissors.
      ![](https://user-images.githubusercontent.com/83303996/138966887-8d473df1-3d2a-480e-81ea-9627b4c222ba.PNG)

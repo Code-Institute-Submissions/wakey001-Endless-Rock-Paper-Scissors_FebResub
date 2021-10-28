@@ -120,7 +120,9 @@ footer {
 }
 
 .player{
-    margin-right:-4px;
+    
+    margin: 0 auto;
+    margin-right: -4px;
     display: inline-block;
     background-color:#D7FFAB;
     width:50vw;
@@ -212,3 +214,4 @@ img{
             transform: translate(-50%, -50%);
         }
     }
+        
