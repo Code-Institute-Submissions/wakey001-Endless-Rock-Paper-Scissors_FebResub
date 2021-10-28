@@ -120,23 +120,22 @@ footer {
 }
 
 .player{
-    margin: 0;
+    margin-right:-4px;
     display: inline-block;
     background-color:#D7FFAB;
-    width:49.5%;
+    width:50vw;
     height:50%;
-    position: relative;
-    
+    position: relative;    
 }
 
 .computer{
-    margin: 0;
+    
+    margin-right :-4px;
     display: inline-block;
     background-color:#654C4F;
-    width: 49.5%;
+    width:50vw;
     height: 50%;
-    position:relative;
-    
+    position:relative;    
 }
 
 #rock{
