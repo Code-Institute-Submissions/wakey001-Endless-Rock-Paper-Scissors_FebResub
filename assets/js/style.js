@@ -15,6 +15,11 @@ let computerChoice ;
 let result ;
 
 /*Event listener for USER buttons */
+function myFunction() { 
+	document.getElementById("player-img").style.display="none"; 
+    document.getElementById("computer-img").style.display="none";
+	 
+}
 
 
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
@@ -36,7 +41,7 @@ function generateComputerChoice(){
         computerChoice = 'paper';
     }
     computerChoiceDisplay.innerHTML = computerChoice;
-    
+    myFunction();
 }
 /* Result to tell you who has won  */
 function getResult(){
