@@ -14,22 +14,20 @@ let userChoice ;
 let computerChoice ;
 let result ;
 
-/*Event listener for USER buttons */
-function myFunction() { 
-	
 
-     
-
-    
-    
-
-        
-
-
+const controlOptions = {
+    "rock": "assets/images/rock.png",
+    "paper": "assets/images/paper.png",
+    "scissors": "assets/images/scissors.png"
+};
+function myFunction(control) { 
+    document.getElementById("user-choice-img").src = controlOptions(control);
+    let contest = document.querySelector(".contest");
+    contest.style.visibility = "visible";
 	 
 }
 
-
+/*Event listener for USER buttons */
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
 userChoice = e.target.id;
 userChoiceDisplay.innerHTML = userChoice;
@@ -49,7 +47,7 @@ function generateComputerChoice(){
         computerChoice = 'paper';
     }
     computerChoiceDisplay.innerHTML = computerChoice;
-    myFunction();
+    
 }
 /* Result to tell you who has won  */
 function getResult(){
@@ -105,6 +103,7 @@ function lose(){
     playerScoreSpan.innerHTML = playerScore;
 
 }
+
 
 
 

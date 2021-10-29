@@ -161,22 +161,20 @@ img{
     display: flex;
     position: absolute;
     left: 50%;
-    top: 70%;
-    transform: translate(-50%, -50%);
-
-    
-
-    
+    top: 60%;
+    transform: translate(-50%, -50%);    
 }
 #computer-img{
     display:flex;
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 60%;
     transform: translate(-50%, -50%);
-    
-
 }
+.contest{
+    visibility: hidden;
+}
+
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 500px){
         body{
