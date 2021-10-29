@@ -16,8 +16,16 @@ let result ;
 
 /*Event listener for USER buttons */
 function myFunction() { 
-	document.getElementById("player-img").style.display="none"; 
-    document.getElementById("computer-img").style.display="none";
+	
+
+     
+
+    
+    
+
+        
+
+
 	 
 }
 

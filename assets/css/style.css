@@ -41,8 +41,6 @@ footer {
     position:fixed;
 }
 
-
-
 /*Game Area*/
 .game-area{
     background-color:#52D1DC ;
@@ -51,16 +49,13 @@ footer {
     overflow: auto;
     padding: 0px;
     margin: 0;
-    height:100vh ;
-    
-    
-    
+    height:100vh ;   
 }
 
+/*buttons rock/paper/scissors*/
 .buttons{
-    margin-top:10px; 
+    margin-top:10px;
 }
-
 .control{
     display: inline-block;
     color:Black;
@@ -77,11 +72,24 @@ footer {
     transition: all 0.25s;
 
 }
+/*button colors*/
+#rock{
+    background-color:#f5a65b ;
+}
 
+#paper{
+    background-color:#dff2d8;
+}
+
+#scissors{
+    background-color:#CEC2FF;
+}
+
+/*  result of game above scoreboard*/
 #result{
     height: 20px;
 }
-
+/*scoreboard*/
 .score-board{
     border: 2px solid black;
     border-radius: 4px;
@@ -95,7 +103,7 @@ footer {
     position: relative;
 
 }
-
+/* divs which contain (you and computer in scoreboard*/
 .badge{
 
     color:black;
@@ -104,7 +112,7 @@ footer {
     padding: 2px 10px;
     font-family: 'Simonetta', 'sans-serif';
 }
-
+/*you and computer text in scoreboard*/
 #player-label{
     position:absolute;
     top: 20px;
@@ -119,6 +127,7 @@ footer {
     background: #654C4F;
 }
 
+/*divs behind the rock paper scissors image*/
 .player{
     
     margin: 0 auto;
@@ -140,24 +149,14 @@ footer {
     position:relative;    
 }
 
-#rock{
-    background-color:#f5a65b ;
-}
-
-#paper{
-    background-color:#dff2d8;
-}
-
-#scissors{
-    background-color:#CEC2FF;
-}
-
+/*imgs of all rock paper scissor*/
 img{
     width:200px ;
     height:200px ;
 
     
 }
+/* id for div that holds the imgs rock paper scissor combined*/
 #player-img{
     display: inline-block;
     position: absolute;
