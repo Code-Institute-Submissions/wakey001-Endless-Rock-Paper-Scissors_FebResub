@@ -3,7 +3,6 @@ let playerScore = 0;
 let computerScore = 0;
 const playerScoreSpan = document.getElementById('player-score');
 const computerScoreSpan = document.getElementById('computer-score');
-const scoreBoardDiv = document.querySelector('.score-board');
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
@@ -21,7 +20,8 @@ const controlOptions = {
     "scissors": "assets/images/scissors.png"
 };
 function myFunction(control) { 
-    document.getElementById("user-choice-img").src = controlOptions(control);
+    document.getElementById("user-choice-img").src = controlOptions.control; 
+
     let contest = document.querySelector(".contest");
     contest.style.visibility = "visible";
 	 

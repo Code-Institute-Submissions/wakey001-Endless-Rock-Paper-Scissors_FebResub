@@ -172,7 +172,7 @@ img{
     transform: translate(-50%, -50%);
 }
 .contest{
-    visibility: hidden;
+    visibility:hidden;
 }
 
 /* media query for mobile under 500 px wide*/ 
