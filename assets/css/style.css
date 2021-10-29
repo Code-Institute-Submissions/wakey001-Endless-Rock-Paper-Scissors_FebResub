@@ -156,9 +156,9 @@ img{
 
     
 }
-/* id for div that holds the imgs rock paper scissor combined*/
+/* id for div that holds the imgs rock paper scissor combined and user and computer choice*/
 #player-img{
-    display: inline-block;
+    display: flex;
     position: absolute;
     left: 50%;
     top: 70%;
@@ -169,7 +169,7 @@ img{
     
 }
 #computer-img{
-    display:inline-block;
+    display:flex;
     position: absolute;
     left: 50%;
     top: 70%;
