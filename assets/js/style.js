@@ -15,13 +15,20 @@ let result ;
 
 
 const controlOptions = {
-    "rock": "assets/images/rock.png",
-    "paper": "assets/images/paper.png",
-    "scissors": "assets/images/scissors.png"
+    rock: "./assets/images/rock.png",
+    paper: "./assets/images/paper.png",
+    scissors: "./assets/images/scissors.png"
 };
-function myFunction(control) { 
-    document.getElementById("user-choice-img").src = controlOptions.control; 
-
+const CompOptions = {
+    rock: "./assets/images/rock-mirror.png",
+    paper: ".assets/images/paper-mirror.png",
+    scissors: "./assets/images.scissors-mirror.png"
+}
+function displayUserChoice(control, computerChoice) { 
+    document.getElementById("user-choice-img").src = controlOptions[control]; 
+    
+    document.getElementById("computer-choice-img").src = CompOptions[computerChoice];
+    
     let contest = document.querySelector(".contest");
     contest.style.visibility = "visible";
 	 
@@ -35,7 +42,17 @@ generateComputerChoice();
 getResult();
 }));
 /*Generates computer choice  */
-function generateComputerChoice(){
+
+
+function generateComputerChoice()/*{const choices = ['rock', 'scissors', 'paper']
+const randomNumber = Math.floor(Math.random () * choices.length);
+choices[randomNumber]
+
+
+
+
+
+    
     const randomNumber = Math.floor(Math.random () *3 +1);
     if (randomNumber === 1){
         computerChoice = 'rock';
@@ -47,8 +64,8 @@ function generateComputerChoice(){
         computerChoice = 'paper';
     }
     computerChoiceDisplay.innerHTML = computerChoice;
-    
-}
+    displayUserChoice();
+}*/
 /* Result to tell you who has won  */
 function getResult(){
     if(computerChoice === userChoice){

@@ -157,6 +157,10 @@ img{
     
 }
 /* id for div that holds the imgs rock paper scissor combined and user and computer choice*/
+#user-choice-img{
+    width: 300px ;
+
+}
 #player-img{
     display: flex;
     position: absolute;

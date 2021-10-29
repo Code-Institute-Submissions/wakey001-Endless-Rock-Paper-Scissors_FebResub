@@ -1,4 +1,4 @@
-# wakey001/Rock Paper Scissors
+n3 # wakey001/Rock Paper Scissors
 ***
 Rock, Paper, Scissors . This game is for adults and children is a  fun , intuitive replayable game that is played against the computer.
 ## Rock Paper Scissors Game

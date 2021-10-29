@@ -18,9 +18,9 @@
     <section class="game-area">
         <div class="buttons">
              
-            <button aria-label="Rock"  class="control" id="rock" onclick="myFunction('rock')">Rock<i class="fas fa-hand-rock"></i></button>
-            <button aria-label="Paper"  class="control" id="paper" onclick="myFunction('paper')">Paper<i class="fas fa-hand-paper"></i></button>
-            <button aria-label="Scissors" class="control" id="scissors" onclick="myFunction('scissors')">Scissors<i class="fas fa-hand-scissors"></i></button>
+            <button aria-label="Rock"  class="control" id="rock" onclick="displayUserChoice('rock')">Rock<i class="fas fa-hand-rock"></i></button>
+            <button aria-label="Paper"  class="control" id="paper" onclick="displayUserChoice('paper')">Paper<i class="fas fa-hand-paper"></i></button>
+            <button aria-label="Scissors" class="control" id="scissors" onclick="displayUserChoice('scissors')">Scissors<i class="fas fa-hand-scissors"></i></button>
             
         </div>
         
@@ -53,7 +53,7 @@
             <h2>Computer Choice: <span id="computer-choice"></span></h2>
 
         <div id="computer-img">
-            <img id="house-choice-img" class="contest" src="#" alt="[rock, paper, scissors]">
+            <img id="house-choice-img" class="contest" src="#" alt="rock, paper, scissors">
             <img  id="house-img" src="assets/images/rock-paper-sissors-flip.png"  alt="rock, paper, scissors">
             
 
