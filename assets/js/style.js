@@ -39,21 +39,7 @@ function generateComputerChoice(){
     const randomNumber = Math.floor(Math.random () * choices.length);
     computerChoiceDisplay.innerHTML = choices[randomNumber]            
 };
- 
-    /*
-    const randomNumber = Math.floor(Math.random () *3 +1);
-    if (randomNumber === 1){
-        computerChoice = 'rock';
-    }
-    if (randomNumber === 2){
-        computerChoice = 'scissors';
-    }
-    if(randomNumber === 3){
-        computerChoice = 'paper';
-    }
-    computerChoiceDisplay.innerHTML = computerChoice;
-    
-}
+
 /* Result to tell you who has won  */
 function getResult(){
     if( computerChoiceDisplay.innerHTML === userChoice){
