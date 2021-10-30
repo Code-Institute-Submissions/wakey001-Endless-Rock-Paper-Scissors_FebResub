@@ -175,10 +175,13 @@ img{
     top: 60%;
     transform: translate(-50%, -50%);
 }
-/*
-.contest{
+
+#house-choice-img{
     visibility:hidden;
-}*/
+}
+#user-choice-img{
+    visibility: hidden;
+}
 
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 500px){

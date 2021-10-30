@@ -27,11 +27,16 @@ const controlOptions = {
 /*function gets the value of rock paper scissor from html buttons*/
  
 function displayUserChoice(control) { 
-    document.getElementById("user-choice-img").src = controlOptions[control]; 
-    let contest = document.querySelector(".contest");
-    contest.style.visibility = "visible";	
+    document.getElementById("user-choice-img").src = controlOptions[control];
 
-}
+    let userContest = document.getElementById("user-choice-img");
+      userContest.style.visibility = "visible" ;
+    }
+      /*	
+    let  compContest = document.getElementById("computer-choice-img");
+    compContest.style.visibility = "visible" ;*/
+
+
 
 /*Event listener for USER buttons */
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
@@ -47,19 +52,12 @@ function generateComputerChoice(){
     const choices = ['rock', 'scissors', 'paper']
     const randomNumber = Math.floor(Math.random () * choices.length);
     computerChoiceDisplay.innerHTML = choices[randomNumber] 
-/* works until here*/
- 
-    computerImage.src = `./assets/images/${computerChoiceDisplay.innerHTML}-mirror.png`;
-    
-    
+    computerImage.src = `./assets/images/${computerChoiceDisplay.innerHTML}-mirror.png`; 
+     computerImage.style.visibility = "visible" ;  
  }
-/*
-    computerImage.src = `assets/images/${choices[randomNumber]}-mirror.png`;
-    computerImage.alt = choices[randomNumber];
-
-};*/
 
 /* Result to tell you who has won  */
+
 function getResult(){
     if(computerChoiceDisplay.innerHTML === userChoice){
         result = 'This is a Draw!';
