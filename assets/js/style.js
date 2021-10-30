@@ -10,7 +10,6 @@ const possibleChoices = document.querySelectorAll('button');
 
 
 let userChoice ;
-let computerChoice ;
 let result ;
 
 
