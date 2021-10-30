@@ -1,8 +1,8 @@
-n3 # wakey001/Rock Paper Scissors
+ # wakey001/Rock Paper Scissors
 ***
-Rock, Paper, Scissors . This game is for adults and children is a  fun , intuitive replayable game that is played against the computer.
+Rock, Paper, Scissors . This game is for adults and children and is a  fun , intuitive replayable game that is played against the computer. 
 ## Rock Paper Scissors Game
-![ami image ](https://user-images.githubusercontent.com/83303996/139325860-cd7d838c-e7b1-48c0-af5d-796b10825671.PNG))
+![ami image ](https://user-images.githubusercontent.com/83303996/139559441-a5538150-5c5f-4703-8e25-52e841f9ad51.PNG)
     
 ### Features
   #### Existing Features
@@ -14,7 +14,7 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
 
     
   * The Game Choices
-    * The game includes clear instructions and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
+    * The game includes clear instructions in the footer and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
 
     ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/139327196-08eec25b-186a-4ab5-8df1-b8d3a48ceafb.PNG)
 
@@ -24,12 +24,17 @@ Rock, Paper, Scissors . This game is for adults and children is a  fun , intuiti
     * The winner and scoreboard are clear for the user to understand.
 
      ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/139327289-2ed2c1da-ad25-4716-8e34-965e268a06dd.PNG)
+
+  * Player and computer Images
+    * These have a standard image with a battlestance that is mirrored for the computer ,this gives the game a playful but serious feel.
+    ![Battle Area](https://user-images.githubusercontent.com/83303996/139559593-12bdb0b9-de5e-439f-8f62-c7e9135f84fb.PNG)
+
   * Footer
-     * The footer section shows the rules of paper rock scissors.
-     ![](https://user-images.githubusercontent.com/83303996/138966887-8d473df1-3d2a-480e-81ea-9627b4c222ba.PNG)
+    * The footer section shows the rules of paper rock scissors.
+     ![Footer](https://user-images.githubusercontent.com/83303996/138966887-8d473df1-3d2a-480e-81ea-9627b4c222ba.PNG)
 
  * Features To Be Implemented
-     * In the future Id like to add the Lizard spock from the big bang theory.
+    * In the future Id like to add the Lizard spock from the big bang theory.
 
 #### User Goals
 * The game should have relevant content
