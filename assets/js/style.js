@@ -29,7 +29,8 @@ const controlOptions = {
 function displayUserChoice(control) { 
     document.getElementById("user-choice-img").src = controlOptions[control]; 
     let contest = document.querySelector(".contest");
-    contest.style.visibility = "visible";	 
+    contest.style.visibility = "visible";	
+
 }
 
 /*Event listener for USER buttons */
@@ -45,7 +46,13 @@ getResult();
 function generateComputerChoice(){
     const choices = ['rock', 'scissors', 'paper']
     const randomNumber = Math.floor(Math.random () * choices.length);
-    computerChoiceDisplay.innerHTML = choices[randomNumber]  }
+    computerChoiceDisplay.innerHTML = choices[randomNumber] 
+/* works until here*/
+ 
+    computerImage.src = `./assets/images/${computerChoiceDisplay.innerHTML}.png`;
+    
+    
+ }
 /*
     computerImage.src = `assets/images/${choices[randomNumber]}-mirror.png`;
     computerImage.alt = choices[randomNumber];
@@ -89,6 +96,7 @@ function getResult(){
         
     }
     resultDisplay.innerHTML = result;
+    
 
 }
 /**
