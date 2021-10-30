@@ -35,6 +35,8 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
 
  * Features To Be Implemented
     * In the future Id like to add the Lizard spock from the big bang theory.
+    * Id also like to add an end game feature which ends the game after either player or computer wins 5 or 10 games 
+    * I'd also potentially like to have a countdown with audio " 3.. 2.. 1.. Draw!" , this would add more tension and excitment to the game imo.
 
 #### User Goals
 * The game should have relevant content
@@ -86,8 +88,25 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 
 * These fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 #### Colors
+##### [#52D1DC](https://colorate.azurewebsites.net/Color/52D1DC)
 
-![coolers pallette](https://user-images.githubusercontent.com/83303996/139056828-93cbe9e5-b1d3-428e-8320-93820ad842f4.PNG)
+![#52D1DC](https://user-images.githubusercontent.com/83303996/139559807-e2a29e11-2da9-46cb-967c-25678670ec14.PNG)
+##### [#D7FFAB](https://colorate.azurewebsites.net/Color/D7FFAB)
+![#D7FFAB](https://user-images.githubusercontent.com/83303996/139560004-b79c7f2b-0b6d-40f4-b879-7895775e8932.PNG)
+
+##### [#654C4F](https://colorate.azurewebsites.net/Color/654C4F)
+![#654C4F](https://user-images.githubusercontent.com/83303996/139560075-0990b94c-fca8-4070-8f39-b9ef884137fd.PNG)
+
+##### [#F5A65B](https://colorate.azurewebsites.net/Color/F5A65B)
+![#F5A65B]()
+
+##### [#DFF2D8]()
+![#DFF2D8]()
+
+##### [#CEC2FF]()
+![#CEC2FF]()
+
+
  
 * To create the colour scheme for the game, I used [coolers](https://coolors.co) I went to the create pallette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
 
