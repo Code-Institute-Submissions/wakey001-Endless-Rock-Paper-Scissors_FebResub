@@ -57,36 +57,36 @@ function generateComputerChoice(){
 }
 /* Result to tell you who has won  */
 function getResult(){
-    if( computerChoice === userChoice){
+    if( computerChoiceDisplay.innerHTML === userChoice){
         result = 'This is a Draw!';
     
     }
-    if(computerChoice === 'rock' && userChoice === 'paper'){
+    if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'paper'){
         result = 'You Win!';
         win();
 
     }
-    if(computerChoice === 'rock' && userChoice === 'scissors'){
+    if( computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'scissors'){
         result = 'You lost!';
         lose();
 
     }
-    if(computerChoice === 'paper' && userChoice === 'scissors'){
+    if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'scissors'){
         result= 'You Win!';
         win();
         
     }
-    if(computerChoice === 'paper' && userChoice === 'rock'){
+    if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'rock'){
         result= 'You lost!';
         lose();
         
     }
-    if(computerChoice === 'scissors' && userChoice === 'rock'){
+    if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'rock'){
         result= 'You Win!';
         win();
         
     }
-    if(computerChoice=== 'scissors' && userChoice === 'paper'){
+    if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'paper'){
         result= 'You lost!';
         lose();
         
