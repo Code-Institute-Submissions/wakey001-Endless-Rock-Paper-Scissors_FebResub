@@ -18,20 +18,11 @@ const controlOptions = {
     rock: "./assets/images/rock.png",
     paper: "./assets/images/paper.png",
     scissors: "./assets/images/scissors.png"
-};
-const CompOptions = {
-    rock: "./assets/images/rock-mirror.png",
-    paper: ".assets/images/paper-mirror.png",
-    scissors: "./assets/images.scissors-mirror.png"
 }
-function displayUserChoice(control, computerChoice) { 
+function displayUserChoice(control) { 
     document.getElementById("user-choice-img").src = controlOptions[control]; 
-    
-    document.getElementById("computer-choice-img").src = CompOptions[computerChoice];
-    
     let contest = document.querySelector(".contest");
-    contest.style.visibility = "visible";
-	 
+    contest.style.visibility = "visible";	 
 }
 
 /*Event listener for USER buttons */
@@ -44,15 +35,13 @@ getResult();
 /*Generates computer choice  */
 
 
-function generateComputerChoice()/*{const choices = ['rock', 'scissors', 'paper']
-const randomNumber = Math.floor(Math.random () * choices.length);
-choices[randomNumber]
-
-
-
-
-
-    
+function generateComputerChoice(){
+    const choices = ['rock', 'scissors', 'paper']
+    const randomNumber = Math.floor(Math.random () * choices.length);
+    computerChoiceDisplay.innerHTML = choices[randomNumber]            
+};
+ 
+    /*
     const randomNumber = Math.floor(Math.random () *3 +1);
     if (randomNumber === 1){
         computerChoice = 'rock';
@@ -64,11 +53,11 @@ choices[randomNumber]
         computerChoice = 'paper';
     }
     computerChoiceDisplay.innerHTML = computerChoice;
-    displayUserChoice();
-}*/
+    
+}
 /* Result to tell you who has won  */
 function getResult(){
-    if(computerChoice === userChoice){
+    if( computerChoice === userChoice){
         result = 'This is a Draw!';
     
     }
@@ -97,7 +86,7 @@ function getResult(){
         win();
         
     }
-    if(computerChoice === 'scissors' && userChoice === 'paper'){
+    if(computerChoice=== 'scissors' && userChoice === 'paper'){
         result= 'You lost!';
         lose();
         
