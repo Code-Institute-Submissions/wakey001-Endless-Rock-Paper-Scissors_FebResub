@@ -122,6 +122,7 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 * As this was my first attempt at JavaScript I have had to take a different approach to testing , console.log is now my best friend . It has been challeging to say the least .
 After some feedback from my mentor and friends I dedcided to implement the player and computer weapon image sucsessfully .
 Another part of the game I would have liked to implement is an endgame function, as this was also given as feedback. At this time I do not know 100% how to implement this but hopfully can in the future.
+As such I decided to call the game endless rock-paper-scissors.
 
 The game works 100% of the time but there till is a slight glitch which at this time is still present where by after clicking a button eg scissors sometimes it does not display the choice for the user , this is not the case for the computer and the scoreboard still operates as intended. I am hoping to iron this out before the deadline.![UserChoice Glitch](https://user-images.githubusercontent.com/83303996/139594642-0dc976cb-eb2c-4edb-b97c-63c68f7aeade.PNG)
  

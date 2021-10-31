@@ -6,19 +6,16 @@ const computerScoreSpan = document.getElementById('computer-score');
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
-const possibleChoices = document.querySelectorAll('button');
+const possibleChoices = document.querySelectorAll('buttons');
 const computerImage = document.querySelector('#house-choice-img');
 
 
 let userChoice ;
 let result ;
 
-/**
- * 
- */
-/**
- * passes the value rock,paper,scissors from html into image 
- */
+
+ /* passes the value rock,paper,scissors from html into image */
+ 
 const controlOptions = {
     rock: "./assets/images/rock.png",
     paper: "./assets/images/paper.png",
