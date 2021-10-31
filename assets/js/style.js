@@ -20,7 +20,7 @@ const controlOptions = {
     rock: "./assets/images/rock.png",
     paper: "./assets/images/paper.png",
     scissors: "./assets/images/scissors.png"
-}
+};
 /*function gets the value of rock paper scissor from html buttons*/
  
 function displayUserChoice(control) { 
@@ -41,9 +41,9 @@ getResult();
 /*Generates computer choice  */
 
 function generateComputerChoice(){
-    const choices = ['rock', 'scissors', 'paper']
+    const choices = ['rock', 'scissors', 'paper'];
     const randomNumber = Math.floor(Math.random () * choices.length);
-    computerChoiceDisplay.innerHTML = choices[randomNumber] 
+    computerChoiceDisplay.innerHTML = choices[randomNumber] ;
     computerImage.src = `./assets/images/${computerChoiceDisplay.innerHTML}-mirror.png`; 
      computerImage.style.visibility = "visible" ;  
  }
