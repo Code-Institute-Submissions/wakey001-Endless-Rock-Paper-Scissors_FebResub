@@ -10,6 +10,8 @@ const possibleChoices = document.querySelectorAll('button');
 const computerImage = document.querySelector('#house-choice-img');
 
 
+//Set the userChoice to = control in the display userChoice function instead of the e.target.id
+
 let userChoice ;
 let result ;
 
@@ -28,13 +30,13 @@ function displayUserChoice(control) {
 
     let userContest = document.getElementById("user-choice-img");
       userContest.style.visibility = "visible" ;
+
     }
       
 //Event listener for USER buttons 
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
 userChoice = e.target.id;
 userChoiceDisplay.innerHTML = userChoice;
-console.log(userChoice);
 generateComputerChoice();
 getResult();
 }));

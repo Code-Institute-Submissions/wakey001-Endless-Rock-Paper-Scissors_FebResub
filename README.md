@@ -10,7 +10,7 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
     * Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
     * The title also tells the user what game they are playing.
 
-  ![Header image](https://user-images.githubusercontent.com/83303996/139327220-192d64d9-eca5-4881-aff0-7556b7c6e3a0.PNG)
+  ![Header image](https://user-images.githubusercontent.com/83303996/139601360-22c47825-6ea2-4cf4-bb6e-90332b88d1ef.PNG)
 
     
   * The Game Choices
@@ -169,6 +169,8 @@ I have checked my code in all 3 of the recommeded validator services without iss
  
 ### Unfixed Bugs
 * The game works 100% of the time but there till is a slight glitch which at this time is still present where by after clicking a button eg scissors sometimes it does not display the choice for the user , this is not the case for the computer and the scoreboard still operates as intended. I am hoping to iron this out before the deadline.![UserChoice Glitch](https://user-images.githubusercontent.com/83303996/139594642-0dc976cb-eb2c-4edb-b97c-63c68f7aeade.PNG)
+
+This has now been fixed . Issue was if you clicked on the Icon within the button It would not show the users choice as the icon had no value . This was fixed by giving the icon the same id as its corresponing button .
 
 ***
 ### Technologies Used
