@@ -14,7 +14,7 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
 
     
   * The Game Choices
-    * The game includes clear instructions in the footer and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks.
+    * The game includes clear instructions in the footer and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks. These have the syled to give a 3d effect when hovered as well as the cursor changing to a pointer.
 
     ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/139327196-08eec25b-186a-4ab5-8df1-b8d3a48ceafb.PNG)
 
@@ -36,7 +36,7 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
  * Features To Be Implemented
     * In the future Id like to add the Lizard spock from the big bang theory.
     * Id also like to add an end game feature which ends the game after either player or computer wins 5 or 10 games 
-    * I'd also potentially like to have a countdown with audio " 3.. 2.. 1.. Draw!" , this would add more tension and excitment to the game imo.
+    * I'd also potentially like to have a countdown with audio " 3.. 2.. 1.. Draw!" , this would add more tension and excitment to the game.
 
 #### User Goals
 * The game should have relevant content
@@ -73,7 +73,6 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
 ***
 ### Design choices
 
-
 #### Fonts
 * Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with [Simonetta](https://fonts.google.com/specimen/Simonetta?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom&query=ox) as I feel in my opinion this is a modern and stylish and current feel and is easy to read.I also chose the same for my header as I feel this contasts well with the main text as when larger its flair is even more noticabe in my opinion.
 I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Grover?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom) 
@@ -84,7 +83,6 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 [Rock](https://fontawesome.com/v5.15/icons/hand-rock?style=solid)
 [Paper](https://fontawesome.com/v5.15/icons/hand-paper?style=solid)
 [Scissors](https://fontawesome.com/v5.15/icons/hand-scissors?style=solid)
-
 
 * These fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 
@@ -106,18 +104,28 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 * This colour [#DFF2D8](https://colorate.azurewebsites.net/Color/DFF2D8)![#DFF2D8](https://user-images.githubusercontent.com/83303996/139593181-8ee5fc6c-cb40-48a6-bbdc-3ca5fc5c1fd0.PNG) is for the background colour of the button paper.
 
 ##### 
-* 
-This colour [#CEC2FF](https://colorate.azurewebsites.net/Color/CEC2FF)![#CEC2FF](https://user-images.githubusercontent.com/83303996/139593262-0e4fc13a-bb8d-4a88-84a3-0a3cd65459eb.PNG) is for the background colour of the button scissors.
+* This colour [#CEC2FF](https://colorate.azurewebsites.net/Color/CEC2FF)![#CEC2FF](https://user-images.githubusercontent.com/83303996/139593262-0e4fc13a-bb8d-4a88-84a3-0a3cd65459eb.PNG) is for the background colour of the button scissors.
 
 #####
-*
-This colour [#B49FCC](https://colorate.azurewebsites.net/Color/B49FCC)![#B49FCC](https://user-images.githubusercontent.com/83303996/139593926-94613c5a-0fe1-4496-af13-e41e852e2ae4.PNG)is for the background colour of the header.
+* This colour [#B49FCC](https://colorate.azurewebsites.net/Color/B49FCC)![#B49FCC](https://user-images.githubusercontent.com/83303996/139593926-94613c5a-0fe1-4496-af13-e41e852e2ae4.PNG)is for the background colour of the header.
+
 * To create the colour scheme for the game, I used [coolers](https://coolors.co) I went to the create pallette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
 * The image of these colours are from the site [colorate](https://colorate.azurewebsites.net/)
+
+### Images
+* All of my images are borrowed from google images and mirrored using the site [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally).
+
+### Structure
+* I will be building my website with a mobile-first approach. Using the Chrome developer tools to give me the iPhone 5/SE (320px), I will use this as the smallest screen size for styling. The only media queory Ive needed to make in css is for screens under 500px.
+
 ### Testing 
+* As this was my first attempt at JavaScript I have had to take a different approach to testing , console.log is now my best friend . It has been challeging to say the least .
+After some feedback from my mentor and friends I dedcided to implement the player and computer weapon image sucsessfully .
+Another part of the game I would have liked to implement is an endgame function, as this was also given as feedback. At this time I do not know 100% how to implement this but hopfully can in the future.
 
+The game works 100% of the time but there till is a slight glitch which at this time is still present where by after clicking a button eg scissors sometimes it does not display the choice for the user , this is not the case for the computer and the scoreboard still operates as intended. I am hoping to iron this out before the deadline.![UserChoice Glitch](https://user-images.githubusercontent.com/83303996/139594642-0dc976cb-eb2c-4edb-b97c-63c68f7aeade.PNG)
+ 
 * My results from the lighthouse in devtools are below. With no errors in my CSS or HTML when passed through the validators mentioned in the tools section.
-
 
 ![Lighthouse Performance](https://user-images.githubusercontent.com/83303996/138968391-2a535cac-70a4-40c8-aee7-32de647f0860.PNG)
 
@@ -125,8 +133,6 @@ This colour [#B49FCC](https://colorate.azurewebsites.net/Color/B49FCC)![#B49FCC]
 
 * ##### Bug 
   * An issue I came across was with my win() function being implemented . This fuction was to increment the score. The problem was the numbers on the score board would say NaN . 
-
- 
 
 * ##### Fix 
   * Could not figure out the problem so turned to slack for help . This put me in the direction of looking at what my variables values were which turned out to be the main problem . I had not declared that the variable for playerScore and computerScore needed to be 0 . 
@@ -202,7 +208,7 @@ To run it locally on gitpod follow this method:
 
 ### Credits
 #### Content-Media-Inspiration
-* My inspiration was a mixture of codeinstitute, youtube two youtubers inparticular and my personal view on how I wanted it to look.
+* My inspiration was a mixture of alot of games I have seen both online on youtube and on the forum slack.
 
 #### Images 
 * The Images I obtained are from google images and flipped to get the mirror image for the comuter side via [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally) This site became a saviour of mine as its quick and easy . I'd spent a number of hours in paint flipping but losing transparancy when doing so .
