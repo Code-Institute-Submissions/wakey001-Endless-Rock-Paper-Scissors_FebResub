@@ -29,12 +29,7 @@ function displayUserChoice(control) {
     let userContest = document.getElementById("user-choice-img");
       userContest.style.visibility = "visible" ;
     }
-      /*	
-    let  compContest = document.getElementById("computer-choice-img");
-    compContest.style.visibility = "visible" ;*/
-
-
-
+      
 /*Event listener for USER buttons */
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
 userChoice = e.target.id;
@@ -92,7 +87,6 @@ function getResult(){
     }
     resultDisplay.innerHTML = result;
     
-
 }
 /**
  * Gets current score from DOM and increments by 1

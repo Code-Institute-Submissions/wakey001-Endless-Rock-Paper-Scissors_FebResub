@@ -7,12 +7,6 @@ html {
 
 }
 
-body {
-    font-family: 'Simonetta' ,sans-serif;
-    margin: 0;
-
-}
-
 header {
     text-align:center;
     background-color:#B49FCC;
@@ -25,6 +19,11 @@ h2{
     margin: 0;
     padding: 1px;
     line-height: 3;
+}
+body {
+    font-family: 'Simonetta' ,sans-serif;
+    margin: 0;
+
 }
 
 footer {
@@ -104,6 +103,7 @@ footer {
 
 }
 /* divs which contain (you and computer in scoreboard*/
+
 .badge{
 
     color:black;
@@ -112,7 +112,9 @@ footer {
     padding: 2px 10px;
     font-family: 'Simonetta', 'sans-serif';
 }
-/*you and computer text in scoreboard*/
+
+/*User and computer text in scoreboard*/
+
 #player-label{
     position:absolute;
     top: 20px;
@@ -127,7 +129,7 @@ footer {
     background: #654C4F;
 }
 
-/*divs behind the rock paper scissors image*/
+/*Divs behind the rock paper scissors image*/
 .player{
     
     margin: 0 auto;
@@ -149,16 +151,14 @@ footer {
     position:relative;    
 }
 
-/*imgs of all rock paper scissor*/
+/*Images of all rock paper scissor*/
 img{
     width:200px ;
     height:200px ;
 
     
 }
-/* id for div that holds the imgs rock paper scissor combined and user and computer choice*/
-
-
+/* Id for div that holds the imgs rock paper scissor combined and user and computer choice*/
 
 #player-img{
     display: flex;
@@ -166,6 +166,7 @@ img{
     left: 50%;
     top: 60%;
     transform: translate(-50%, -50%);    
+    
 }
 #computer-img{
     display:flex;
