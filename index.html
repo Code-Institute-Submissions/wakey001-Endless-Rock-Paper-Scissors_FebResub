@@ -14,26 +14,37 @@
         <h2>Endless Rock, Paper, Scissors</h2>
     </header>
 
-
     <section class="game-area">
         <div class="buttons">
              
-            <button aria-label="Rock"  class="control" id="rock" onclick="displayUserChoice('rock')">Rock<i class="fas fa-hand-rock"></i></button>
-            <button aria-label="Paper"  class="control" id="paper" onclick="displayUserChoice('paper')">Paper<i class="fas fa-hand-paper"></i></button>
-            <button aria-label="Scissors" class="control" id="scissors" onclick="displayUserChoice('scissors')">Scissors<i class="fas fa-hand-scissors"></i></button>
+            <button aria-label="Rock"  class="control" id="rock" onclick="displayUserChoice('rock')">
+                Rock<i class="fas fa-hand-rock"></i></button>
+
+            <button aria-label="Paper"  class="control" id="paper" onclick="displayUserChoice('paper')">
+                Paper<i class="fas fa-hand-paper"></i></button>
+
+            <button aria-label="Scissors" class="control" id="scissors" onclick="displayUserChoice('scissors')">
+                Scissors<i class="fas fa-hand-scissors"></i></button>
             
         </div>
         
         <div>
-        <h2>Result: <span id="result"> </span></h2>
+        <h2>Result: <span id="result"> </span>
+        </h2>
+
         </div>
 
        <div class="score-board">
-       <div id="player-label" class="badge">You</div>
-       <div id="computer-label" class="badge">Computer</div>
-       <span id="player-score">0</span >:<span id="computer-score">0</span>
 
-       </div>
+            <div id="player-label" class="badge">
+                You
+            </div>
+            <div id="computer-label" class="badge">
+                Computer
+            </div>
+
+            <span id="player-score">0</span >:<span id="computer-score">0</span>
+        </div>
         
 
 
@@ -44,6 +55,7 @@
 
         <div id="player-img">
             <img id="user-img" src="assets/images/rps.png"  alt="rock, paper,scissors">
+
             <img id="user-choice-img" class="contest" src="#" alt="[rock, paper, scissors] ">
         </div>
 
@@ -54,6 +66,7 @@
 
         <div id="computer-img">
             <img id="house-choice-img" class="contest" src="#" alt="rock, paper, scissors">
+            
             <img  id="house-img" src="assets/images/rps-mirror.png"  alt="rock, paper, scissors">
             
 
