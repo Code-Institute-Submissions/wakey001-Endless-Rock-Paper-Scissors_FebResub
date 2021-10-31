@@ -8,13 +8,8 @@ const userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
 const possibleChoices = document.querySelectorAll('button');
 const computerImage = document.querySelector('#house-choice-img');
-
-
-//Set the userChoice to = control in the display userChoice function instead of the e.target.id
-
 let userChoice ;
 let result ;
-
 
  //passes the value rock,paper,scissors from html into image 
  
@@ -30,7 +25,6 @@ function displayUserChoice(control) {
 
     let userContest = document.getElementById("user-choice-img");
       userContest.style.visibility = "visible" ;
-
     }
       
 //Event listener for USER buttons 
@@ -51,8 +45,7 @@ function generateComputerChoice(){
      computerImage.style.visibility = "visible" ;  
  }
 
-
-   //Result to tell you who has won.
+//Result to tell you who has won.
 
 function getResult(){
     if(computerChoiceDisplay.innerHTML === userChoice){
@@ -90,7 +83,6 @@ function getResult(){
         
     }
     resultDisplay.innerHTML = result;
-    
 }
  
 //Gets current score from DOM and increments by 1
