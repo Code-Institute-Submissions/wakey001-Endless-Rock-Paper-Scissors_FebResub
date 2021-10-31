@@ -1,4 +1,4 @@
-/*DOM elements */
+//DOM elements 
 let playerScore = 0;
 let computerScore = 0;
 const playerScoreSpan = document.getElementById('player-score');
@@ -6,7 +6,7 @@ const computerScoreSpan = document.getElementById('computer-score');
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
-const possibleChoices = document.querySelectorAll('buttons');
+const possibleChoices = document.querySelectorAll('button');
 const computerImage = document.querySelector('#house-choice-img');
 
 
@@ -14,14 +14,14 @@ let userChoice ;
 let result ;
 
 
- /* passes the value rock,paper,scissors from html into image */
+ //passes the value rock,paper,scissors from html into image 
  
 const controlOptions = {
     rock: "./assets/images/rock.png",
     paper: "./assets/images/paper.png",
     scissors: "./assets/images/scissors.png"
 };
-/*function gets the value of rock paper scissor from html buttons*/
+//Gets the value of rock paper scissor from html buttons
  
 function displayUserChoice(control) { 
     document.getElementById("user-choice-img").src = controlOptions[control];
@@ -30,15 +30,16 @@ function displayUserChoice(control) {
       userContest.style.visibility = "visible" ;
     }
       
-/*Event listener for USER buttons */
+//Event listener for USER buttons 
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click', (e) => {
 userChoice = e.target.id;
 userChoiceDisplay.innerHTML = userChoice;
+console.log(userChoice);
 generateComputerChoice();
 getResult();
 }));
 
-/*Generates computer choice  */
+//Generates computer choice . 
 
 function generateComputerChoice(){
     const choices = ['rock', 'scissors', 'paper'];
@@ -48,7 +49,8 @@ function generateComputerChoice(){
      computerImage.style.visibility = "visible" ;  
  }
 
-/* Result to tell you who has won  */
+
+   //Result to tell you who has won.
 
 function getResult(){
     if(computerChoiceDisplay.innerHTML === userChoice){
@@ -88,9 +90,9 @@ function getResult(){
     resultDisplay.innerHTML = result;
     
 }
-/**
- * Gets current score from DOM and increments by 1
- */
+ 
+//Gets current score from DOM and increments by 1
+ 
 function win(){
     playerScore++;
     playerScoreSpan.innerHTML = playerScore;
