@@ -87,29 +87,33 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 
 
 * These fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
+
 #### Colors
-##### [#52D1DC](https://colorate.azurewebsites.net/Color/52D1DC)
-![#52D1DC](https://user-images.githubusercontent.com/83303996/139559807-e2a29e11-2da9-46cb-967c-25678670ec14.PNG)
 
-##### [#D7FFAB](https://colorate.azurewebsites.net/Color/D7FFAB)
-![#D7FFAB](https://user-images.githubusercontent.com/83303996/139560004-b79c7f2b-0b6d-40f4-b879-7895775e8932.PNG)
+##### 
+* This colour [#52D1DC](https://colorate.azurewebsites.net/Color/52D1DC)![#52D1DC](https://user-images.githubusercontent.com/83303996/139559807-e2a29e11-2da9-46cb-967c-25678670ec14.PNG) is for the main background colour.
 
-##### [#654C4F](https://colorate.azurewebsites.net/Color/654C4F)
-![#654C4F](https://user-images.githubusercontent.com/83303996/139560075-0990b94c-fca8-4070-8f39-b9ef884137fd.PNG)
-
-##### [#F5A65B](https://colorate.azurewebsites.net/Color/F5A65B)
-![#F5A65B](https://user-images.githubusercontent.com/83303996/139593370-9546626d-a0a5-45e9-85a3-9f7e26ee3233.PNG)
-
-##### [#DFF2D8](https://colorate.azurewebsites.net/Color/DFF2D8)
-![#DFF2D8](https://user-images.githubusercontent.com/83303996/139593181-8ee5fc6c-cb40-48a6-bbdc-3ca5fc5c1fd0.PNG)
-
-##### [#CEC2FF](https://colorate.azurewebsites.net/Color/CEC2FF)
-![#CEC2FF](https://user-images.githubusercontent.com/83303996/139593262-0e4fc13a-bb8d-4a88-84a3-0a3cd65459eb.PNG)
-
-
+#####
+* This colour [#D7FFAB](https://colorate.azurewebsites.net/Color/D7FFAB)![#D7FFAB](https://user-images.githubusercontent.com/83303996/139560004-b79c7f2b-0b6d-40f4-b879-7895775e8932.PNG) is for the user/player background weapon choice colour.
  
-* To create the colour scheme for the game, I used [coolers](https://coolors.co) I went to the create pallette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
+##### 
+* This colour [#654C4F](https://colorate.azurewebsites.net/Color/654C4F)![#654C4F](https://user-images.githubusercontent.com/83303996/139560075-0990b94c-fca8-4070-8f39-b9ef884137fd.PNG) is for the house/computer background weapon choice colour.
 
+##### 
+* This colour [#F5A65B](https://colorate.azurewebsites.net/Color/F5A65B)![#F5A65B](https://user-images.githubusercontent.com/83303996/139593370-9546626d-a0a5-45e9-85a3-9f7e26ee3233.PNG) is for the background colour of the button rock.
+
+##### 
+* This colour [#DFF2D8](https://colorate.azurewebsites.net/Color/DFF2D8)![#DFF2D8](https://user-images.githubusercontent.com/83303996/139593181-8ee5fc6c-cb40-48a6-bbdc-3ca5fc5c1fd0.PNG) is for the background colour of the button paper.
+
+##### 
+* 
+This colour [#CEC2FF](https://colorate.azurewebsites.net/Color/CEC2FF)![#CEC2FF](https://user-images.githubusercontent.com/83303996/139593262-0e4fc13a-bb8d-4a88-84a3-0a3cd65459eb.PNG) is for the background colour of the button scissors.
+
+#####
+*
+This colour [#B49FCC](https://colorate.azurewebsites.net/Color/B49FCC)![#B49FCC](https://user-images.githubusercontent.com/83303996/139593926-94613c5a-0fe1-4496-af13-e41e852e2ae4.PNG)is for the background colour of the header.
+* To create the colour scheme for the game, I used [coolers](https://coolors.co) I went to the create pallette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
+* The image of these colours are from the site [colorate](https://colorate.azurewebsites.net/)
 ### Testing 
 
 * My results from the lighthouse in devtools are below. With no errors in my CSS or HTML when passed through the validators mentioned in the tools section.
