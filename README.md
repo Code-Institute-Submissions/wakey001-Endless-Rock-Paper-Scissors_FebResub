@@ -89,8 +89,8 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 * These fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 #### Colors
 ##### [#52D1DC](https://colorate.azurewebsites.net/Color/52D1DC)
-
 ![#52D1DC](https://user-images.githubusercontent.com/83303996/139559807-e2a29e11-2da9-46cb-967c-25678670ec14.PNG)
+
 ##### [#D7FFAB](https://colorate.azurewebsites.net/Color/D7FFAB)
 ![#D7FFAB](https://user-images.githubusercontent.com/83303996/139560004-b79c7f2b-0b6d-40f4-b879-7895775e8932.PNG)
 
@@ -98,13 +98,13 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 ![#654C4F](https://user-images.githubusercontent.com/83303996/139560075-0990b94c-fca8-4070-8f39-b9ef884137fd.PNG)
 
 ##### [#F5A65B](https://colorate.azurewebsites.net/Color/F5A65B)
-![#F5A65B]()
+![#F5A65B](https://user-images.githubusercontent.com/83303996/139593370-9546626d-a0a5-45e9-85a3-9f7e26ee3233.PNG)
 
-##### [#DFF2D8]()
-![#DFF2D8]()
+##### [#DFF2D8](https://colorate.azurewebsites.net/Color/DFF2D8)
+![#DFF2D8](https://user-images.githubusercontent.com/83303996/139593181-8ee5fc6c-cb40-48a6-bbdc-3ca5fc5c1fd0.PNG)
 
-##### [#CEC2FF]()
-![#CEC2FF]()
+##### [#CEC2FF](https://colorate.azurewebsites.net/Color/CEC2FF)
+![#CEC2FF](https://user-images.githubusercontent.com/83303996/139593262-0e4fc13a-bb8d-4a88-84a3-0a3cd65459eb.PNG)
 
 
  
