@@ -10,7 +10,14 @@ const possibleChoices = document.querySelectorAll('button');
 const computerImage = document.querySelector('#house-choice-img');
 let userChoice ;
 let result ;
+const rockRef = document.querySelector('#rock')
+const scissorsRef = document.querySelector('#scissors')
+const paperRef = document.querySelector('#paper')
 
+
+document.querySelector('#rock').addEventListener('click', displayUserChoice);
+document.querySelector('#paper').addEventListener('click', displayUserChoice);
+document.querySelector('#scissors').addEventListener('click', displayUserChoice);
  //Passes the value rock,paper,scissors from html into image 
  
 const controlOptions = {

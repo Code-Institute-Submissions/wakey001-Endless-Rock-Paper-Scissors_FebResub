@@ -184,6 +184,32 @@ img{
     visibility: hidden;
 }
 
+/*media query for screen 800px-500px wide*/
+    @media screen and (max-width: 800px){
+        #player-img{
+            width:50vw;
+        }
+        #computer-img{
+            width:50vw;
+        }            
+    }
+
+
+/*media query for screen 700px wide*/
+    @media screen and (max-width: 700px){
+        
+    }
+
+
+/*media query for screen 700px wide*/
+    @media screen and (max-width: 650px){
+        .contest{
+            height:170 ;
+            width:100;
+        }
+    }
+
+
 /* media query for mobile under 500 px wide*/ 
     @media screen and (max-width: 500px){
         body{
