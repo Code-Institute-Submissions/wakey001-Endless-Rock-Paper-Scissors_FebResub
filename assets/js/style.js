@@ -11,7 +11,7 @@ const computerImage = document.querySelector('#house-choice-img');
 let userChoice ;
 let result ;
 
- //passes the value rock,paper,scissors from html into image 
+ //Passes the value rock,paper,scissors from html into image 
  
 const controlOptions = {
     rock: "./assets/images/rock.png",
