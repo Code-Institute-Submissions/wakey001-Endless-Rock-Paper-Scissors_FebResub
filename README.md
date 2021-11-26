@@ -112,6 +112,16 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 * To create the colour scheme for the game, I used [coolers](https://coolors.co) I went to the create pallette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
 * The image of these colours are from the site [colorate](https://colorate.azurewebsites.net/)
 
+### Wireframes
+* To design the wireframes I have used [balsamiq](https://balsamiq.com/wireframes/). These designs vary depending on screen size.
+
+![Mobile Wireframe]()
+
+![Tablet Wireframe]()
+
+![Desktop Wireframe]()
+
+
 ### Images
 * All of my images are borrowed from google images and mirrored using the site [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally).
 
@@ -125,9 +135,6 @@ Another part of the game I would have liked to implement is an endgame function,
 As such I decided to call the game endless rock-paper-scissors.
 
 I have checked my code in all 3 of the recommeded validator services without issue . These are mentioned below in tools.
-
-
-
  
 * My results from the lighthouse in devtools are below. With no errors in my CSS or HTML when passed through the validators mentioned in the tools section.
 
@@ -188,9 +195,6 @@ This has now been fixed . Issue was if you clicked on the Icon within the button
 * [W3c Html Validation service](https://validator.w3.org/)
 * [W3c Css Validation service](https://jigsaw.w3.org/css-validator/)
 * [JSHint JavaScript Validator](https://jshint.com/)
-***
-
-
 
 
 ***
@@ -223,7 +227,7 @@ To run it locally on gitpod follow this method:
 Which is not the case with the website above.
 
 #### Acknowledgements
-* I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret) , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley. Id also like to thank the community of slack who helped me with some issues I had with JavaScript . 
+* I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret) , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley. Id also like to thank the community of slack who helped me with some issues I had with JavaScript  . 
 
 #### Credits 
 * 
