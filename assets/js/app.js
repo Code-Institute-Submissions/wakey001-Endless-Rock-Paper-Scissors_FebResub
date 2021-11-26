@@ -15,14 +15,14 @@ const scissorsRef = document.querySelector('#scissors');
 const paperRef = document.querySelector('#paper');
 
 
-document.querySelector('#rock').addEventListener('click');{
-    displayUserChoice()};
+document.querySelector('#rock').addEventListener('click', () => {
+    displayUserChoice('rock')});
 
-document.querySelector('#paper').addEventListener('click');{
-    displayUserChoice()};
+document.querySelector('#paper').addEventListener('click', () => {
+    displayUserChoice('paper')});
 
-document.querySelector('#scissors').addEventListener('click');{
-    displayUserChoice()};
+document.querySelector('#scissors').addEventListener('click', () => {
+    displayUserChoice('scissors')});
 
 
  //Passes the value rock,paper,scissors from html into image 
