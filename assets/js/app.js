@@ -16,7 +16,7 @@ const paperRef = document.querySelector('#paper');
 
 /* Event listeners for the <a> buttons Rock, paper scissors .
  When clicked call the function displayUserChoice*/ 
- 
+
 document.querySelector('#rock').addEventListener('click', () => {
     displayUserChoice('rock')});
 
@@ -66,6 +66,7 @@ function generateComputerChoice(){
 function getResult(){
     if(computerChoiceDisplay.innerHTML === userChoice){
         result = 'This is a Draw!';
+        draw();
     
     }
     if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'paper'){
@@ -114,6 +115,12 @@ function lose(){
     computerScoreSpan.innerHTML = computerScore;
     playerScoreSpan.innerHTML = playerScore;
 
+}
+function draw(){
+    playerScore++;
+    computerScore++;
+    computerScoreSpan.innerHTML = computerScore;
+    playerScoreSpan.innerHTML = playerScore;
 }
 
 
