@@ -6,7 +6,7 @@ const computerScoreSpan = document.getElementById('computer-score');
 const computerChoiceDisplay = document.querySelector('#computer-choice');
 const userChoiceDisplay = document.querySelector('#user-choice');
 const resultDisplay = document.querySelector('#result');
-const possibleChoices = document.querySelectorAll('button');
+const possibleChoices = document.querySelectorAll('.control');
 const computerImage = document.querySelector('#house-choice-img');
 let userChoice ;
 let result ;
@@ -14,7 +14,9 @@ const rockRef = document.querySelector('#rock');
 const scissorsRef = document.querySelector('#scissors');
 const paperRef = document.querySelector('#paper');
 
-
+/* Event listeners for the <a> buttons Rock, paper scissors .
+ When clicked call the function displayUserChoice*/ 
+ 
 document.querySelector('#rock').addEventListener('click', () => {
     displayUserChoice('rock')});
 
