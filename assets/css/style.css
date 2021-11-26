@@ -151,18 +151,21 @@ footer {
 }
 
 /*Images of all rock paper scissor*/
+
+
 img{
     width:200px ;
-    height:200px ;
-
-    
+    height:200px ;       
 }
+
+
 /* Id for div that holds the imgs rock paper scissor combined and user and computer choice*/
+
 
 #player-img{
     display: flex;
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 60%;
     transform: translate(-50%, -50%);    
 
@@ -170,7 +173,7 @@ img{
 #computer-img{
     display:flex;
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 60%;
     transform: translate(-50%, -50%);
 }
@@ -183,33 +186,29 @@ img{
     visibility: hidden;
 }
 
-/*media query for screen 800px-500px wide*/
-    @media screen and (max-width: 800px){
+/*media query for screen 1000px wide*/
+
+    @media screen and (max-width: 1000px){
         #player-img{
-            width:50vw;
+            display: inline-block;
+            position: absolute;
+            left: 50%;
+            top: 55%;
+            transform: translate(-50%, -50%);
         }
+
         #computer-img{
-            width:50vw;
-        }            
-    }
-
-
-/*media query for screen 700px wide*/
-    @media screen and (max-width: 700px){
-        
-    }
-
-
-/*media query for screen 700px wide*/
-    @media screen and (max-width: 650px){
-        .contest{
-            height:170 ;
-            width:100;
+            display:inline-block;
+            position: absolute;
+            left: 50%;
+            top: 55%;
+            transform: translate(-50%, -50%);
         }
     }
 
 
 /* media query for mobile under 500 px wide*/ 
+
     @media screen and (max-width: 500px){
         body{
             letter-spacing: 1px;
@@ -245,4 +244,6 @@ img{
             transform: translate(-50%, -50%);
         }
     }
+
+    
         
