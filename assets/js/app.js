@@ -18,13 +18,13 @@ const paperRef = document.querySelector('#paper');
  When clicked call the function displayUserChoice*/ 
 
 document.querySelector('#rock').addEventListener('click', () => {
-    displayUserChoice('rock')});
+    displayUserChoice('rock');});
 
 document.querySelector('#paper').addEventListener('click', () => {
-    displayUserChoice('paper')});
+    displayUserChoice('paper');});
 
 document.querySelector('#scissors').addEventListener('click', () => {
-    displayUserChoice('scissors')});
+    displayUserChoice('scissors');});
 
 
  //Passes the value rock,paper,scissors from html into image 
