@@ -17,13 +17,13 @@ const paperRef = document.querySelector('#paper');
 /* Event listeners for the <a> buttons Rock, paper scissors .
  When clicked call the function displayUserChoice*/ 
 
-document.querySelector('#rock').addEventListener('click', () => {
+rockRef.addEventListener('click', () => {
     displayUserChoice('rock');});
 
-document.querySelector('#paper').addEventListener('click', () => {
+scissorsRef.addEventListener('click', () => {
     displayUserChoice('paper');});
 
-document.querySelector('#scissors').addEventListener('click', () => {
+paperRef.addEventListener('click', () => {
     displayUserChoice('scissors');});
 
 
