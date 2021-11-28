@@ -14,6 +14,7 @@ const rockRef = document.querySelector('#rock');
 const scissorsRef = document.querySelector('#scissors');
 const paperRef = document.querySelector('#paper');
 
+
 /* Event listeners for the <a> buttons Rock, paper scissors .
  When clicked call the function displayUserChoice*/ 
 
