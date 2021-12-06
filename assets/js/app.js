@@ -66,7 +66,7 @@ function generateComputerChoice(){
 
 function getResult(){
     if(computerChoiceDisplay.innerHTML === userChoice){
-        result = 'This is a Draw!';
+        result = 'This is a Draw, you both score!';
         draw();
     
     }

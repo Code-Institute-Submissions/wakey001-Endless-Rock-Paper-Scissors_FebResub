@@ -1,6 +1,6 @@
 # wakey001/Rock Paper Scissors
 ***
-Rock, Paper, Scissors . This game is for adults and children and is a  fun , intuitive replayable game that is played against the computer. 
+Rock, Paper, Scissors. This game is for adults and children and is a  fun, intuitive replayable game that is played against the computer. 
 ## Rock Paper Scissors Game
 ![ami image ](https://user-images.githubusercontent.com/83303996/139559441-a5538150-5c5f-4703-8e25-52e841f9ad51.PNG)
     
@@ -14,19 +14,19 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
 
     
   * The Game Choices
-    * The game includes clear instructions in the footer and a clear choice of buttons to push . These being rock, paper or scissors and are interactive that the user clicks. These have the syled to give a 3d effect when hovered as well as the cursor changing to a pointer.
+    * The game includes clear instructions in the footer and a clear choice of buttons to push. These are rock, paper or scissors and are interactive that the user clicks. These have the styled to give a 3d effect when hovered over as well as the cursor transforming to a pointer.
 
     ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/139327196-08eec25b-186a-4ab5-8df1-b8d3a48ceafb.PNG)
 
   * The Game Results
     * The winner is announced to the user under the interactive buttons.
-    * The score is updated for either the user or computer depending who wins.
+    * The score is updated for either the user or computer depending on who wins.
     * The winner and scoreboard are clear for the user to understand.
 
      ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/139327289-2ed2c1da-ad25-4716-8e34-965e268a06dd.PNG)
 
   * Player and computer Images
-    * These have a standard image with a battlestance that is mirrored for the computer ,this gives the game a playful but serious feel.
+    * These have a standard image with a battle stance that is mirrored for the computer, this gives the game a playful but serious feel.
     ![Battle Area](https://user-images.githubusercontent.com/83303996/139559593-12bdb0b9-de5e-439f-8f62-c7e9135f84fb.PNG)
 
   * Footer
@@ -34,9 +34,9 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
      ![Footer](https://user-images.githubusercontent.com/83303996/138966887-8d473df1-3d2a-480e-81ea-9627b4c222ba.PNG)
 
  * Features To Be Implemented
-    * In the future Id like to add the Lizard spock from the big bang theory.
+    * In the future Id like to add the Lizard Spock from the big bang theory.
     * Id also like to add an end game feature which ends the game after either player or computer wins 5 or 10 games 
-    * I'd also potentially like to have a countdown with audio " 3.. 2.. 1.. Draw!" , this would add more tension and excitment to the game.
+    * I'd also potentially like to have a countdown with audio " 3.. 2.. 1.. Draw!", this would add more tension and excitement to the game.
 
 #### User Goals
 * The game should have relevant content
@@ -53,9 +53,9 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
 * As a user I want the game to be current and modern in design
 
 #### Site Owners Goals
-* To have a working game which is fun to use
-* The game sould be easy and fun to use 
-* The code should be easy enough to read as to be potentially upgraded or extened to include other weapons such as spock or lizard in the future
+* To have a working game that is fun to use
+* The game should be easy and fun to use 
+* The code should be easy enough to read as to be potentially upgraded or extended to include other weapons such as Spock or lizard in the future
 ***
 
 ### User Requirements And Expectations
@@ -63,7 +63,7 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
 #### Requirements
 * Easy to play and understand who is winning
 * Relevant quality content
-* Clear rules in footer
+* Clear rules in the footer
 * Visually appealing
 ####  Expectations
 * The user expects the game to be fun
@@ -74,9 +74,9 @@ Rock, Paper, Scissors . This game is for adults and children and is a  fun , int
 ### Design choices
 
 #### Fonts
-* Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with [Simonetta](https://fonts.google.com/specimen/Simonetta?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom&query=ox) as I feel in my opinion this is a modern and stylish and current feel and is easy to read.I also chose the same for my header as I feel this contasts well with the main text as when larger its flair is even more noticabe in my opinion.
+* Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with [Simonetta](https://fonts.google.com/specimen/Simonetta?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom&query=ox) as I feel in my opinion this is a modern and stylish and current feel and is easy to read. I also chose the same for my header as I feel this contrasts well with the main text as when larger its flair is even more noticeable in my opinion.
 I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Grover?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom) 
-* Ive gone with this as its a bit wacky and out there and I wanted to give the game a cool looking but readable font.
+* I've gone with this as it's a bit wacky and out there and I wanted to give the game a cool looking but readable font.
 
 #### Icons
 * Icons for my website are from [FONT AWESOME LIBRARY](https://fontawesome.com/).The icons I have chosen are :
@@ -84,7 +84,7 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 [Paper](https://fontawesome.com/v5.15/icons/hand-paper?style=solid)
 [Scissors](https://fontawesome.com/v5.15/icons/hand-scissors?style=solid)
 
-* These fitting with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
+* These fit with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 
 #### Colors
 
@@ -109,7 +109,7 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 #####
 * This colour [#B49FCC](https://colorate.azurewebsites.net/Color/B49FCC)![#B49FCC](https://user-images.githubusercontent.com/83303996/139593926-94613c5a-0fe1-4496-af13-e41e852e2ae4.PNG)is for the background colour of the header.
 
-* To create the colour scheme for the game, I used [coolers](https://coolors.co) I went to the create pallette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
+* To create the colour scheme for the game, I used [coolers](https://coolors.co) I went to create palette colours until I found a colour that I liked, locked it in and kept going to get my colour scheme.
 * The image of these colours are from the site [colorate](https://colorate.azurewebsites.net/)
 
 ### Wireframes
@@ -126,30 +126,30 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 * All of my images are borrowed from google images and mirrored using the site [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally).
 
 ### Structure
-* I will be building my website with a mobile-first approach. Using the Chrome developer tools to give me the iPhone 5/SE (320px), I will use this as the smallest screen size for styling. The only media queory Ive needed to make in css is for screens under 500px.
+* I will be building my website with a mobile-first approach. Using the Chrome developer tools to give me the iPhone 5/SE (320px), I will use this as the smallest screen size for styling. The only media query I've needed to make in CSS is for screens under 500px.
 
 ### Testing 
-* As this was my first attempt at JavaScript I have had to take a different approach to testing , console.log is now my best friend . It has been challeging to say the least .
-After some feedback from my mentor and friends I dedcided to implement the player and computer weapon image sucsessfully .
-Another part of the game I would have liked to implement is an endgame function, as this was also given as feedback. At this time I do not know 100% how to implement this but hopfully can in the future.
-As such I decided to call the game endless rock-paper-scissors.
+* As this was my first attempt at JavaScript I have had to take a different approach to test, console.log is now my best friend. It has been challenging to say the least.
+After some feedback from my mentor and friends, I decided to implement the player and computer weapon image successfully.
+Another part of the game I would have liked to implement is an endgame function, as this was also given as feedback. At this time I do not know 100% how to implement this but hopefully can in the future.
+As such, I decided to call the game endless rock-paper-scissors.
 
-I have checked my code in all 3 of the recommeded validator services without issue . These are mentioned below in tools.
+I have checked my code in all 3 of the recommended validator services without issue. These are mentioned below in tools.
  
-* My results from the lighthouse in devtools are below. With no errors in my CSS or HTML when passed through the validators mentioned in the tools section.
+* My results from the lighthouse in dev tools are below. With no errors in my CSS or HTML when passed through the validators mentioned in the tools section.
 
 ![Lighthouse Performance](https://user-images.githubusercontent.com/83303996/138968391-2a535cac-70a4-40c8-aee7-32de647f0860.PNG)
 
 #### Bugs
 
 * ##### Bug 
-  * An issue I came across was with my win() function being implemented . This fuction was to increment the score. The problem was the numbers on the score board would say NaN . 
+  * An issue I came across was with my win() function being implemented. This function was to increment the score. The problem was the numbers on the scoreboard would say, NaN. 
 
 * ##### Fix 
-  * Could not figure out the problem so turned to slack for help . This put me in the direction of looking at what my variables values were which turned out to be the main problem . I had not declared that the variable for playerScore and computerScore needed to be 0 . 
+  * Could not figure out the problem so turned to slack for help. This put me in the direction of looking at what the values of my variables were which turned out to be the main problem. I had not declared that the variable for playerScore and computerScore needed to be 0. 
 
 * ##### Verdict 
-  * After the fix I tested the game thouroughly to find It now works perfectly with the scoreboard working fluently.
+  * After the fix, I tested the game thoroughly to find It now works perfectly with the scoreboard working fluently.
 
 #### Mobile device
 
@@ -158,26 +158,26 @@ I have checked my code in all 3 of the recommeded validator services without iss
 
 
 * #### Fix 
-  * I decided the best option was to decrease the font size using a media query for screens under 350px. I targeted divs with h2 headings and played around with different sizes before settling at 70% .
+  * I decided the best option was to decrease the font size using a media query for screens under 350px. I targeted divs with h2 headings and played around with different sizes before settling at 70%.
 
 * ##### Verdict 
   * After implementing the fix the mobile devices under 350px now display constant sizes reliably and does not increase or decrease the size of the div.
 
 #### images
 * ##### Bug 
-  * When uploading my images of rock paper scissors . They load vertically by default and were both to the left of there div containers. This looked terrible so neede to be fixed. 
+  * When uploading my images of rock paper scissors. They load vertically by default and were both to the left of their div containers. This looked terrible so needed to be fixed. 
 
 *  ##### Fix
   * I fixed them in css using display:flex , flex-direction: column , and align-items: center .
   
  
 * ##### Verdict
-  * This made them sit perfect in the middle of their div container whilst still retaining the vertical image layout.
+  * This made them sit perfectly in the middle of their div container whilst still retaining the vertical image layout.
  
 ### Unfixed Bugs
-* The game works 100% of the time but there till is a slight glitch which at this time is still present where by after clicking a button eg scissors sometimes it does not display the choice for the user , this is not the case for the computer and the scoreboard still operates as intended. I am hoping to iron this out before the deadline.![UserChoice Glitch](https://user-images.githubusercontent.com/83303996/139594642-0dc976cb-eb2c-4edb-b97c-63c68f7aeade.PNG)
+* The game works 100% of the time but there till is a slight glitch which at this time is still present whereby after clicking a button eg scissors sometimes it does not display the choice for the user, this is not the case for the computer and the scoreboard still operates as intended. I am hoping to iron this out before the deadline.![UserChoice Glitch](https://user-images.githubusercontent.com/83303996/139594642-0dc976cb-eb2c-4edb-b97c-63c68f7aeade.PNG)
 
-This has now been fixed . Issue was if you clicked on the Icon within the button It would not show the users choice as the icon had no value . This was fixed by giving the icon the same id as its corresponing button .
+This has now been fixed. The issue was if you clicked on the Icon within the button It would not show the users choice as the icon had no value. This was fixed by giving the icon the same id as its corresponding button.
 
 ***
 ### Technologies Used
@@ -199,41 +199,35 @@ This has now been fixed . Issue was if you clicked on the Icon within the button
 
 ***
 ### Deployment
-This project was deployed using github using the following method:
+This project was deployed using Github using the following method:
 
-1.After logging into github.com open repository
-2.Click on settings then on the left find the pages section 
-3.Once in pages click on master branch and then save 
-4.Now a link should appear and in a few moments be able to be clicked 
-5.This is now a live website than can be viewed from any device
+1. After logging into github.com open repository
+2. Click on settings then on the left find the pages section 
+3. Once on the page click on the master branch and then save 
+4. Now a link should appear and in a few moments be able to be clicked 
+5. This is now a live website that can be viewed from any device
 
-To run it locally on gitpod follow this method:
+To run it locally on Gitpod follow this method:
 
-1.Assuming you have gitpod as an add on . Click on which repository you want to run .
-2.Click on gitpod this should then take a few moments 
-3.Once loaded find the terminal section and type python3 -m http.server
-4.This will open a port 8000 ,click yes to open
-5.A new tab should appear with your work ,although sometimes needs to be refreshed 
+1. Assuming you have Gitpod as an add on. Click on which repository you want to run.
+2. Click on Gitpod this should then take a few moments 
+3. Once loaded find the terminal section and type python3 -m HTTP.server
+4. This will open a port 8000, click yes to open
+5. A new tab should appear with your work, although sometimes needs to be refreshed 
 
 
 ***
 
 ### Credits
 #### Content-Media-Inspiration
-* My inspiration was a mixture of alot of games I have seen both online on youtube and on the forum slack.
+* My inspiration was a mixture of a lot of games I have seen both online on youtube and on the forum slack.
 
 #### Images 
-* The Images I obtained are from google images and flipped to get the mirror image for the comuter side via [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally) This site became a saviour of mine as its quick and easy . I'd spent a number of hours in paint flipping but losing transparancy when doing so .
-Which is not the case with the website above.
+* The Images I obtained are from google images and flipped to get the mirror image for the computer side via [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally) This site became a saviour of mine as its quick and easy. I'd spent a number of hours in paint flipping but losing transparency when doing so.
+This is not the case with the website above.
 
 #### Acknowledgements
-* I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret) , his guidence helped me structure the project to meet deadlines for our meetings which helped immensley. Id also like to thank the community of slack who helped me with some issues I had with JavaScript  . 
+* I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret), his guidance helped me structure the project to meet deadlines for our meetings which helped immensely. I'd also like to thank the community of slack who helped me with some issues I had with JavaScript. 
 
 #### Credits 
 * 
-
-
-
-
-
-
