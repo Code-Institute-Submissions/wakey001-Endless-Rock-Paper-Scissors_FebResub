@@ -44,7 +44,7 @@ footer {
 .game-area{
     background-color:#52D1DC ;
     text-align: center;
-    width:100vw;
+    width: 100vw;
     overflow: auto;
     padding: 0px;
     margin: 0;
@@ -153,8 +153,8 @@ footer {
 
 
 img{
-    width:200px ;
-    height:200px ;       
+    width:18vw ;
+    height:17vw ;       
 }
 
 
@@ -218,10 +218,10 @@ img{
             
         }
 
-        img{
+        /*img{
             height: 100px;
             width: 100px;
-        }
+        }*/
 
         #result{
             font-size: 70%;
