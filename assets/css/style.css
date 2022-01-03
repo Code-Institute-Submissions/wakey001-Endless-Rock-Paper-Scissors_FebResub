@@ -2,7 +2,7 @@
     
 /*/Main html structure*/
 html {
-    min-height: 100%;
+    max-height: 100%;
     position: relative;
 
 }
@@ -12,7 +12,7 @@ header {
     background-color:#B49FCC;
     font-family: 'Irish Grover' , sans-serif;
     overflow: auto;
-    margin-bottom: -2px;
+    margin-bottom: 2px;
 }
 
 h2{
@@ -22,8 +22,7 @@ h2{
 }
 body {
     font-family: 'Simonetta' ,sans-serif;
-    margin: 0;
-
+    
 }
 
 footer {
@@ -36,8 +35,9 @@ footer {
     box-sizing: border-box;
     color: #fff;
     background-color: #000;
-    min-height: 30vw;
-    position:fixed;
+    position: fixed;
+    
+    
 }
 
 /*Game Area*/
