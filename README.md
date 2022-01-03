@@ -115,15 +115,20 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 ### Wireframes
 * To design the wireframes I have used [balsamiq](https://balsamiq.com/wireframes/). These designs vary depending on screen size.
 
+#### Mobile 
+* As can be seen when compared to the actual result the images were made into a column on each side to fit. 
 ![Mobile Wireframe](https://user-images.githubusercontent.com/83303996/147989361-103d071a-4d03-4c74-b042-27b7fcce5db6.PNG)
 
+#### Tablet
+* The images for the tablet were decreased in size aas were some headings, but untimately looks almost like the wireframe. 
 ![Tablet Wireframe](https://user-images.githubusercontent.com/83303996/147989336-b7440248-635d-4118-a538-9e9d217c79fe.PNG)
 
+#### Desktop
+* Again allmost the same apart from an update with the scoreboard.
 ![Desktop Wireframe](https://user-images.githubusercontent.com/83303996/147989368-4c2a8cb1-2e9b-4e5d-8f73-8894d67b5d67.PNG)
 
-
 ### Images
-* All of my images are borrowed from google images and mirrored using the site [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally).
+* All of my images are borrowed from google images and mirrored using the site [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally)
 
 ### Structure
 * I will be building my website with a mobile-first approach. Using the Chrome developer tools to give me the iPhone 5/SE (320px), I will use this as the smallest screen size for styling. The only media query I've needed to make in CSS is for screens under 500px.
