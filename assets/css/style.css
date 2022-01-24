@@ -84,6 +84,14 @@ footer {
     background-color:#CEC2FF;
 }
 
+#lizard{
+    background-color:#4C934C;
+}
+
+#spock{
+    background-color:#DB504A;
+}
+
 /*  result of game above scoreboard*/
 #result{
     height: 20px;
