@@ -156,12 +156,12 @@ function getResult(){
     }
     if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'spock'){
         result= 'You Win!, spock smashes scissors';
-        Win();
+        win();
         
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'rock'){
         result= 'You Win!, rock crushes lizard';
-        Win();
+        win();
         
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'paper'){
@@ -171,7 +171,7 @@ function getResult(){
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'scissors'){
         result= 'You Win!, scissors decapitates lizard';
-        Win();
+        win();
         
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'spock'){
@@ -186,7 +186,7 @@ function getResult(){
     }
     if(computerChoiceDisplay.innerHTML === 'spock' && userChoice === 'paper'){
         result= 'You Win!, paper disproves spock';
-        Win();
+        win();
         
     }
     if(computerChoiceDisplay.innerHTML === 'spock' && userChoice === 'scissors'){
@@ -196,7 +196,7 @@ function getResult(){
     }
     if(computerChoiceDisplay.innerHTML === 'spock' && userChoice === 'lizard'){
         result= 'You Win!, lizard poisons spocks';
-        Win();
+        win();
         
     }
 
@@ -216,12 +216,6 @@ function lose(){
     computerScoreSpan.innerHTML = computerScore;
     playerScoreSpan.innerHTML = playerScore;
 
-}
-function draw(){
-    playerScore++;
-    computerScore++;
-    computerScoreSpan.innerHTML = computerScore;
-    playerScoreSpan.innerHTML = playerScore;
 }
 
 
