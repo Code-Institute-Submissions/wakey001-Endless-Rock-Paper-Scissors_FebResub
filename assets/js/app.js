@@ -22,10 +22,10 @@ rockRef.addEventListener('click', () => {
     displayUserChoice('rock');});
 
 scissorsRef.addEventListener('click', () => {
-    displayUserChoice('paper');});
+    displayUserChoice('scissors');});
 
 paperRef.addEventListener('click', () => {
-    displayUserChoice('scissors');});
+    displayUserChoice('paper');});
 
 
  //Passes the value rock,paper,scissors from html into image 
