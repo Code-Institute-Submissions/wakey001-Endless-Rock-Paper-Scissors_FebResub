@@ -29,10 +29,10 @@ scissorsRef.addEventListener('click', () => {
 paperRef.addEventListener('click', () => {
     displayUserChoice('paper');});
 
-paperRef.addEventListener('click', () => {
+lizardRef.addEventListener('click', () => {
     displayUserChoice('lizard');});
 
-paperRef.addEventListener('click', () => {
+spockRef.addEventListener('click', () => {
     displayUserChoice('spock');});
 
  //Passes the value rock,paper,scissors from html into image 
@@ -74,10 +74,30 @@ function generateComputerChoice(){
 //Result to tell you who has won.
 
 function getResult(){
-    if(computerChoiceDisplay.innerHTML === userChoice){
-        result = 'This is a Draw, you both score!';
-        draw();
+    if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'rock'){
+        result = 'This is a draw, you both have rock!';
+    // Draw
     
+    }
+    if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'paper'){
+        result = 'This is a draw, you both have paper!';
+    // Draw
+
+    }
+    if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'scissors'){
+        result = 'This is a draw, you both have scissors!';
+    // Draw
+
+    }
+    if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'lizard'){
+        result = 'This is a draw, you both have lizard!';
+    // Draw
+
+    }
+    if(computerChoiceDisplay.innerHTML === 'spock' && userChoice === 'spock'){
+        result = 'This is a draw, you both have spock!';
+    // Draw
+
     }
     if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'paper'){
         result = 'You Win, paper wraps rock !';
