@@ -85,12 +85,12 @@ function getResult(){
 
     }
     if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'scissors'){
-        result = 'You lost!, rock jams scissors';
+        result = 'You lost!, scissors gets jammed by rock  ';
         lose();
     
     }
     if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'lizard'){
-        result = 'You lost!, rock crushes lizard';
+        result = 'You lost!, lizard gets crushed by rock  ';
         lose();
 
     }
@@ -105,7 +105,7 @@ function getResult(){
         
     }
     if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'rock'){
-        result= 'You lost!, paper wraps rock';
+        result= 'You lost!, rock gets wrapped by paper';
         lose();
         
     }
@@ -115,7 +115,7 @@ function getResult(){
         
     }
     if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'spock'){
-        result= 'You lost!, paper disproves spock';
+        result= 'You lost!, spock gets disproven by paper';
         lose();
         
     }
@@ -125,12 +125,12 @@ function getResult(){
         
     }
     if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'paper'){
-        result= 'You lost!, scissors cuts paper';
+        result= 'You lost!, paper gets cut by scissors';
         lose();
         
     }
     if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'lizard'){
-        result= 'You lost! scissors decapitates lizard';
+        result= 'You lost!, lizard gets decapitated by scissors';
         lose();
         
     }
@@ -145,7 +145,7 @@ function getResult(){
         
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'paper'){
-        result= 'You Lose!, lizard eats paper';
+        result= 'You Lose!, paper gets eaten by lizard';
         lose();
         
     }
@@ -155,12 +155,12 @@ function getResult(){
         
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'spock'){
-        result= 'You lose!, lizard poisons spock';
+        result= 'You lose!,spock gets poisoned by lizard';
         lose();
         
     }
     if(computerChoiceDisplay.innerHTML === 'spock' && userChoice === 'rock'){
-        result= 'You lose!, spock vaporizes rock';
+        result= 'You lose!, rock gets vaporized by spock';
         lose();
         
     }
@@ -170,7 +170,7 @@ function getResult(){
         
     }
     if(computerChoiceDisplay.innerHTML === 'spock' && userChoice === 'scissors'){
-        result= 'You lose!, spock smashes scissors';
+        result= 'You lose!, scissors gets smashed by spock ';
         lose();
         
     }
