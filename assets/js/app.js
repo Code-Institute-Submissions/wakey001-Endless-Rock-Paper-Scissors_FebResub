@@ -13,8 +13,8 @@ let result ;
 const rockRef = document.querySelector('#rock');
 const scissorsRef = document.querySelector('#scissors');
 const paperRef = document.querySelector('#paper');
-const lizardRef = document.querySelector('#lizard')
-const spockRef = document.querySelector('#spock')
+const lizardRef = document.querySelector('#lizard');
+const spockRef = document.querySelector('#spock');
 
 
 /* Event listeners for the <a> buttons Rock, paper scissors .
