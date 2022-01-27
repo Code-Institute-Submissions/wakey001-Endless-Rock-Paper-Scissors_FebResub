@@ -41,8 +41,8 @@ const controlOptions = {
     rock: "./assets/images/rock.png",
     paper: "./assets/images/paper.png",
     scissors: "./assets/images/scissors.png",
-    lizard: ".assets/images/lizard.png",
-    spock: ".assets/images/spock.png"
+    lizard: "./assets/images/lizard.png",
+    spock: "./assets/images/spock.png"
 };
 //Gets the value of rock paper scissor from html buttons
  
