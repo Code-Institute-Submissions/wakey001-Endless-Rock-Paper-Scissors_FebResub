@@ -175,7 +175,7 @@ function getResult(){
         
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'spock'){
-        result= 'You lose!,spock gets poisoned by lizard';
+        result= 'You lose!, spock gets poisoned by lizard';
         lose();
         
     }
