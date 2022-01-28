@@ -12,7 +12,7 @@ header {
     background-color:#B49FCC;
     font-family: 'Irish Grover' , sans-serif;
     overflow: auto;
-    margin-bottom: 2px;
+    width:100vw;
 }
 
 h2{
@@ -139,20 +139,19 @@ footer {
 /*Divs behind the rock paper scissors image*/
 .player{
     
-    margin: 0 auto;
-    margin-right: -4px;
+    margin-right: -5px;
     display: inline-block;
     background-color:#D7FFAB;
-    width:50vw;
+    width: 35vw;
     height:50%;
     position: relative;    
 }
 .computer{
     
-    margin-right :-4px;
+    margin-left: 0;
     display: inline-block;
     background-color:#654C4F;
-    width:50vw;
+    width: 35vw;
     height: 50%;
     position:relative;    
 }
@@ -161,7 +160,7 @@ footer {
 
 
 img{
-    width:18vw ;
+    width:17vw ;
     height:17vw ;       
 }
 
@@ -192,6 +191,7 @@ img{
 #user-choice-img{
     visibility: hidden;
 }
+
 
 /*media query for screen 1000px wide*/
 
