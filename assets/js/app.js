@@ -1,6 +1,8 @@
 //DOM elements 
 let playerScore = 0;
 let computerScore = 0;
+const userMilestone = document.getElementById('user-score-milestone');
+const computerMilstone = document.getElementById('computer-score-milestone');
 const playerScoreSpan = document.getElementById('player-score');
 const computerScoreSpan = document.getElementById('computer-score');
 const computerChoiceDisplay = document.querySelector('#computer-choice');
@@ -217,7 +219,14 @@ function lose(){
     playerScoreSpan.innerHTML = playerScore;
 
 }
+function winGame(){
+    if (playerScore === 10 && computerScore < 10){
+        outcome = 'Well done you got to 10 before the computer.';
 
+    }
 
+    userMilestone.innerHTML = outcome
+}
+winGame()
 
 
