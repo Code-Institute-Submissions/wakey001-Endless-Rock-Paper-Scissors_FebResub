@@ -198,6 +198,7 @@ function getResult(){
         result= 'You Win!, lizard poisons spocks';
         win();
         
+
     }
     resultDisplay.innerHTML = result;
 }
@@ -217,7 +218,6 @@ function lose(){
 
 }
 
-    
 
 
 

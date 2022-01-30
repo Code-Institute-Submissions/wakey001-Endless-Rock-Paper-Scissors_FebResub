@@ -142,7 +142,7 @@ footer {
     margin-right: -5px;
     display: inline-block;
     background-color:#D7FFAB;
-    width: 35vw;
+    width: 40vw;
     height:50%;
     position: relative;    
 }
@@ -151,7 +151,7 @@ footer {
     margin-left: 0;
     display: inline-block;
     background-color:#654C4F;
-    width: 35vw;
+    width: 40vw;
     height: 50%;
     position:relative;    
 }
@@ -225,14 +225,25 @@ img{
             font-size: 65%;
             
         }
+        footer{ width: 100vw;
+            text-align: center;
+            left: 0;
+            bottom: 0;
+            padding-top: 1px;
+            box-sizing: border-box;
+            color: #fff;
+            background-color: #000;
+            position: fixed;
+            
 
+        }
         /*img{
             height: 100px;
             width: 100px;
         }*/
 
         #result{
-            font-size: 70%;
+            font-size: 20%;
         }
 
         #player-img{
