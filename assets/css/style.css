@@ -216,7 +216,7 @@ img{
 
 /* media query for mobile under 500 px wide*/ 
 
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 550px){
         body{
             letter-spacing: 1px;
         }
@@ -225,22 +225,9 @@ img{
             font-size: 65%;
             
         }
-        footer{ width: 100vw;
-            text-align: center;
-            left: 0;
-            bottom: 0;
-            padding-top: 1px;
-            box-sizing: border-box;
-            color: #fff;
-            background-color: #000;
-            position: fixed;
-            
-
+        footer{ 
+            font-size: 50%;
         }
-        /*img{
-            height: 100px;
-            width: 100px;
-        }*/
 
         #result{
             font-size: 20%;
