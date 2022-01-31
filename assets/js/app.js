@@ -75,27 +75,27 @@ function generateComputerChoice(){
 
 function getResult(){
     if(computerChoiceDisplay.innerHTML === 'rock' && userChoice === 'rock'){
-        result = 'This is a draw, you both have rock!';
+        result = 'Draw, you both have rock!';
     // Draw
     
     }
     if(computerChoiceDisplay.innerHTML === 'paper' && userChoice === 'paper'){
-        result = 'This is a draw, you both have paper!';
+        result = 'Draw, you both have paper!';
     // Draw
 
     }
     if(computerChoiceDisplay.innerHTML === 'scissors' && userChoice === 'scissors'){
-        result = 'This is a draw, you both have scissors!';
+        result = 'Draw, you both have scissors!';
     // Draw
 
     }
     if(computerChoiceDisplay.innerHTML === 'lizard' && userChoice === 'lizard'){
-        result = 'This is a draw, you both have lizard!';
+        result = 'Draw, you both have lizard!';
     // Draw
 
     }
     if(computerChoiceDisplay.innerHTML === 'spock' && userChoice === 'spock'){
-        result = 'This is a draw, you both have spock!';
+        result = 'Draw, you both have spock!';
     // Draw
 
     }
