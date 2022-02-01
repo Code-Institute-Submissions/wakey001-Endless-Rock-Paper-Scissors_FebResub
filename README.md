@@ -27,11 +27,11 @@ Rock, Paper, Scissors. This game is for adults and children and is a  fun, intui
 
   * Player and computer Images
     * These have a standard image with a battle stance that is mirrored for the computer, this gives the game a playful but serious feel.
-    ![Battle Area](https://user-images.githubusercontent.com/83303996/139559593-12bdb0b9-de5e-439f-8f62-c7e9135f84fb.PNG)
+    ![Battle Area](https://user-images.githubusercontent.com/83303996/151927879-df8ae5ec-e68b-47fc-80ce-bb1703f6bfc5.PNG)
 
   * Footer
     * The footer section shows the rules of paper rock scissors.
-     ![Footer](https://user-images.githubusercontent.com/83303996/138966887-8d473df1-3d2a-480e-81ea-9627b4c222ba.PNG)
+     ![Footer](https://user-images.githubusercontent.com/83303996/151927832-29b91edd-c8b5-4a3e-be3b-68196d58c4e5.PNG)
 
  * Features To Be Implemented
     * In the future Id like to add the Lizard Spock from the big bang theory.
