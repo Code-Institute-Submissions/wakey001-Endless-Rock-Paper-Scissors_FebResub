@@ -249,8 +249,10 @@ img{
             font-size: 55%;
             
         }
-        footer{ 
-            font-size: 50%;
+        /*Footer Rules image*/
+        #image{
+            height:50%;
+            width:80%;
         }
 
         #result{
