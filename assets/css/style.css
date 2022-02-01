@@ -238,7 +238,7 @@ img{
     }
 
 
-/* media query for mobile under 500 px wide*/ 
+/* media query for mobile under 550 px wide*/ 
 
     @media screen and (max-width: 550px){
         body{

@@ -222,7 +222,7 @@ function lose(){
     playerScoreSpan.innerHTML = playerScore;
 
 }
-
+// resets the game at 15 and tells whomever gets there first
 function gameOver(){
     if(playerScore === 15 && computerScore < 15){
         alert("You won press ok to reset the game");
@@ -236,13 +236,14 @@ function gameOver(){
 
     }
 }
+// controls the footer Rules button 
 function toggleImage() {
     var hiddenImage = document.getElementById('image');
     hiddenImage.classList.toggle('hidden');
   }
   
   
-  rulesRef.addEventListener('click', toggleImage)
+  
 
 
 
