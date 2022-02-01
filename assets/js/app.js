@@ -221,19 +221,24 @@ function lose(){
 
 function gameOver(){
     if(playerScore === 15 && computerScore < 15){
-        alert("You won press ok to reset the game")
-        playerScore = 0
-        computerScore = 0
+        alert("You won press ok to reset the game");
+        playerScore = 0;
+        computerScore = 0;
     }
     if(playerScore < 15 && computerScore === 15){
-        alert("You lost press ok to reset the game")
-        playerScore = 0
-        computerScore = 0
+        alert("You lost press ok to reset the game");
+        playerScore = 0;
+        computerScore = 0;
 
     }
 }
-
-
+function toggleImage() {
+    var image = document.getElementById('image');
+    image.classList.toggle('hidden');
+  }
+  
+  var button = document.getElementById('rules')
+  button.addEventListener('click', toggleImage)
 
 
 

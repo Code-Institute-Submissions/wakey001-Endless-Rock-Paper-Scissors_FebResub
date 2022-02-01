@@ -72,6 +72,11 @@ footer {
 
 }
 /*Footer button (rules)*/
+
+.hidden {
+    display: none;
+}
+
 .footer-rules{
 display: inline-block;
     color: #000;
