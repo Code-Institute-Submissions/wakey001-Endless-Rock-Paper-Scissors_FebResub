@@ -220,11 +220,15 @@ function lose(){
 }
 
 function gameOver(){
-    if(playerScore === 15 && computerScore < 10){
-        console.log("console win");
+    if(playerScore === 15 && computerScore < 15){
+        alert("You won press ok to reset the game")
+        playerScore = 0
+        computerScore = 0
     }
     if(playerScore < 15 && computerScore === 15){
-        console.log("console lose");
+        alert("You lost press ok to reset the game")
+        playerScore = 0
+        computerScore = 0
 
     }
 }
