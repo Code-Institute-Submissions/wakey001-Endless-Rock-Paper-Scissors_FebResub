@@ -2,7 +2,7 @@
 ***
 Rock, Paper, Scissors. This game is for adults and children and is a  fun, intuitive replayable game that is played against the computer. 
 ## Rock Paper Scissors Game
-![ami image ](https://user-images.githubusercontent.com/83303996/139559441-a5538150-5c5f-4703-8e25-52e841f9ad51.PNG)
+![ami-readme-rpsls-pm2](https://user-images.githubusercontent.com/83303996/151926261-1c4b59b6-914a-475e-81ea-c6334156f0eb.PNG)
     
 ### Features
   #### Existing Features
@@ -10,13 +10,13 @@ Rock, Paper, Scissors. This game is for adults and children and is a  fun, intui
     * Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
     * The title also tells the user what game they are playing.
 
-  ![Header image](https://user-images.githubusercontent.com/83303996/139601360-22c47825-6ea2-4cf4-bb6e-90332b88d1ef.PNG)
+  ![Header image](https://user-images.githubusercontent.com/83303996/151927159-f19556df-a8be-4f3a-b129-25f0ff8d8cf3.PNG)
 
     
   * The Game Choices
     * The game includes clear instructions in the footer and a clear choice of buttons to push. These are rock, paper or scissors and are interactive that the user clicks. These have the styled to give a 3d effect when hovered over as well as the cursor transforming to a pointer.
 
-    ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/139327196-08eec25b-186a-4ab5-8df1-b8d3a48ceafb.PNG)
+    ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/151927052-429e8b6c-064d-42f2-9fbf-8c39d1228ca7.PNG)
 
   * The Game Results
     * The winner is announced to the user under the interactive buttons.
