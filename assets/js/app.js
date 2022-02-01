@@ -15,9 +15,10 @@ const scissorsRef = document.querySelector('#scissors');
 const paperRef = document.querySelector('#paper');
 const lizardRef = document.querySelector('#lizard');
 const spockRef = document.querySelector('#spock');
+var rulesRef = document.getElementById('rules')
 
 
-/* Event listeners for the <a> buttons Rock, paper scissors .
+/* Event listeners for the buttons Rock, paper, scissors, lizard, spock .
  When clicked call the function displayUserChoice*/ 
 
 rockRef.addEventListener('click', () => {
@@ -34,6 +35,9 @@ lizardRef.addEventListener('click', () => {
 
 spockRef.addEventListener('click', () => {
     displayUserChoice('spock');});
+
+// Adds event listener to the rules button and toggles it to close
+rulesRef.addEventListener('click', toggleImage)
 
  //Passes the value rock,paper,scissors from html into image 
  
@@ -233,12 +237,12 @@ function gameOver(){
     }
 }
 function toggleImage() {
-    var image = document.getElementById('image');
-    image.classList.toggle('hidden');
+    var hiddenImage = document.getElementById('image');
+    hiddenImage.classList.toggle('hidden');
   }
   
-  var button = document.getElementById('rules')
-  button.addEventListener('click', toggleImage)
+  
+  rulesRef.addEventListener('click', toggleImage)
 
 
 

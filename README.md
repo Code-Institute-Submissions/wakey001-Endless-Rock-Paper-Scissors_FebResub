@@ -30,8 +30,7 @@ Rock, Paper, Scissors, Lizard, Spock. This game is for adults and children and i
     ![Battle Area](https://user-images.githubusercontent.com/83303996/151927879-df8ae5ec-e68b-47fc-80ce-bb1703f6bfc5.PNG)
 
   * Footer
-    * The footer section shows the rules of rock, paper, scissors, lizard, spock.
-     ![Footer](https://user-images.githubusercontent.com/83303996/151927832-29b91edd-c8b5-4a3e-be3b-68196d58c4e5.PNG)
+    * I decided to change my footer to a button, Rules. This now opens up and image of the various selections and shows what beats what rather than text with pipes || as before .
 
  * Features To Be Implemented
     * In the future Id like to add the Lizard Spock from the big bang theory.
