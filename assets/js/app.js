@@ -59,6 +59,7 @@ userChoice = e.target.id;
 userChoiceDisplay.innerHTML = userChoice;
 generateComputerChoice();
 getResult();
+gameOver();
 }));
 
 //Generates computer choice . 
@@ -216,6 +217,16 @@ function lose(){
     computerScoreSpan.innerHTML = computerScore;
     playerScoreSpan.innerHTML = playerScore;
 
+}
+
+function gameOver(){
+    if(playerScore === 15 && computerScore < 10){
+        console.log("console win");
+    }
+    if(playerScore < 15 && computerScore === 15){
+        console.log("console lose");
+
+    }
 }
 
 
