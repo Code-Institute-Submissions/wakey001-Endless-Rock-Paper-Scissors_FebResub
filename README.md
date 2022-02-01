@@ -1,20 +1,20 @@
 # wakey001/Rock Paper Scissors
 ***
-Rock, Paper, Scissors. This game is for adults and children and is a  fun, intuitive replayable game that is played against the computer. 
+Rock, Paper, Scissors, Lizard, Spock. This game is for adults and children and is a fun, intuitive replayable game that is played against the computer. 
 ## Rock Paper Scissors Game
 ![ami-readme-rpsls-pm2](https://user-images.githubusercontent.com/83303996/151926261-1c4b59b6-914a-475e-81ea-c6334156f0eb.PNG)
     
 ### Features
   #### Existing Features
   * Header
-    * Located at the top of the page it shows the game name Rock paper scissors in a fun font. 
+    * Located at the top of the page it shows the game name Rock, Paper, Scissors, Lizard, Spock in a playful font which is used to make the user feel the game is not serious and to give a casual feel. 
     * The title also tells the user what game they are playing.
 
   ![Header image](https://user-images.githubusercontent.com/83303996/151927159-f19556df-a8be-4f3a-b129-25f0ff8d8cf3.PNG)
 
     
   * The Game Choices
-    * The game includes clear instructions in the footer and a clear choice of buttons to push. These are rock, paper or scissors and are interactive that the user clicks. These have the styled to give a 3d effect when hovered over as well as the cursor transforming to a pointer.
+    * The game includes clear instructions in the footer and a clear choice of buttons to push. These are rock, paper, scissors, lizard, spock. These are interactive buttons that the user clicks. These have been styled to give a 3d effect when hovered over as well as the cursor transforming to a pointer. On mobile only a 3d effect is in effect.
 
     ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/151927052-429e8b6c-064d-42f2-9fbf-8c39d1228ca7.PNG)
 
@@ -26,11 +26,11 @@ Rock, Paper, Scissors. This game is for adults and children and is a  fun, intui
      ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/139327289-2ed2c1da-ad25-4716-8e34-965e268a06dd.PNG)
 
   * Player and computer Images
-    * These have a standard image with a battle stance that is mirrored for the computer, this gives the game a playful but serious feel.
+    * These have a standard image with a battle stance that is mirrored for the computer, this gives the game a playful but serious feel. These have now been deleted now that lizard and spock have been added , but also they did clutter the screen espicially on smaller devices.
     ![Battle Area](https://user-images.githubusercontent.com/83303996/151927879-df8ae5ec-e68b-47fc-80ce-bb1703f6bfc5.PNG)
 
   * Footer
-    * The footer section shows the rules of paper rock scissors.
+    * The footer section shows the rules of rock, paper, scissors, lizard, spock.
      ![Footer](https://user-images.githubusercontent.com/83303996/151927832-29b91edd-c8b5-4a3e-be3b-68196d58c4e5.PNG)
 
  * Features To Be Implemented
@@ -182,7 +182,6 @@ I have checked my code in all 3 of the recommended validator services without is
 ### Unfixed Bugs
 * The game works 100% of the time but there till is a slight glitch which at this time is still present whereby after clicking a button eg scissors sometimes it does not display the choice for the user, this is not the case for the computer and the scoreboard still operates as intended. I am hoping to iron this out before the deadline.![UserChoice Glitch](https://user-images.githubusercontent.com/83303996/139594642-0dc976cb-eb2c-4edb-b97c-63c68f7aeade.PNG)
 
-This has now been fixed. The issue was if you clicked on the Icon within the button It would not show the users choice as the icon had no value. This was fixed by giving the icon the same id as its corresponding button.
 
 ***
 ### Technologies Used
