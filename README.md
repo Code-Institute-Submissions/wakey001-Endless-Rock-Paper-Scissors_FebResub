@@ -30,8 +30,9 @@ Rock, Paper, Scissors, Lizard, Spock. This game is for adults and children and i
     ![Battle Area](https://user-images.githubusercontent.com/83303996/151927879-df8ae5ec-e68b-47fc-80ce-bb1703f6bfc5.PNG)
 
   * Footer
-    * I decided to change my footer to a button, Rules. This now opens up and image of the various selections and shows what beats what rather than text with pipes as before.
-    ![Footer]()
+    * Initially I decided to change my footer to a button, Rules. This now opens up and image of the various selections and shows what beats what rather than text with pipes as before.
+    Unfortunateley the image would not always load on every platform, so instead I decided to insert a paragraph of text instead.
+    ![Footer](https://user-images.githubusercontent.com/83303996/152237622-19ce020c-ae55-4f59-9986-b9867971d440.PNG)
 
  * Features To Be Implemented
     * In the future Id like to add the Lizard Spock from the big bang theory.
@@ -134,10 +135,11 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 * I will be building my website with a mobile-first approach. Using the Chrome developer tools to give me the iPhone 5/SE (320px), I will use this as the smallest screen size for styling. The only media query I've needed to make in CSS is for screens under 500px.
 
 ### Testing 
-* As this was my first attempt at JavaScript I have had to take a different approach to test, console.log is now my best friend. It has been challenging to say the least.
+* 
 After some feedback from my mentor and friends, I decided to implement the player and computer weapon image successfully.
-Another part of the game I would have liked to implement is an endgame function, as this was also given as feedback. At this time I do not know 100% how to implement this but hopefully can in the future.
-As such, I decided to call the game endless rock-paper-scissors.
+Another part of the game I felt I needed to implement is an endgame function, as this was also given as feedback. AS the game runs contiously.
+I decided to set a target of 15 and once reached by either player or computer the game prompts the user with an alert box and resets once ok is pressed.
+Some other feedback I had from an older user was the wernt familiar with the game or what to do. Although the individual is quite tech savvy for their age I realised they had a good point and instead of the rules being placed at the bottom i decided to have a button which toggles the rules once clicked with the added benefit of reducing the space taken up by the footer especially on smaller devices.
 
 I have checked my code in all 3 of the recommended validator services without issue. These are mentioned below in tools.
  
@@ -180,9 +182,8 @@ I have checked my code in all 3 of the recommended validator services without is
   * This made them sit perfectly in the middle of their div container whilst still retaining the vertical image layout.
  
 ### Unfixed Bugs
-* The game works 100% of the time but there till is a slight glitch which at this time is still present whereby after clicking a button eg scissors sometimes it does not display the choice for the user, this is not the case for the computer and the scoreboard still operates as intended. I am hoping to iron this out before the deadline.![UserChoice Glitch](https://user-images.githubusercontent.com/83303996/139594642-0dc976cb-eb2c-4edb-b97c-63c68f7aeade.PNG)
-
-
+* When clicking on the icon within the button this does not give the user any feedback but the game still runs.
+ 
 ***
 ### Technologies Used
 
