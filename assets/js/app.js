@@ -238,7 +238,7 @@ function gameOver(){
 }
 // controls the footer Rules button 
 function toggleImage() {
-    var hiddenImage = document.getElementById('image');
+    var hiddenImage = document.getElementById('rules-text');
     hiddenImage.classList.toggle('hidden');
   }
   

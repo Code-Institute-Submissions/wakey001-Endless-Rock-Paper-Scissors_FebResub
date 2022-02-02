@@ -91,6 +91,10 @@ display: inline-block;
     transform: translate3d(0px, -4px, 0px); 
     transition: all 0.25s;
 }
+#rules-text{
+    text-align: center;    
+}
+
 /*button colors*/
 
 #rock{
@@ -250,9 +254,8 @@ img{
             
         }
         /*Footer Rules image*/
-        #image{
-            height:40%;
-            width:60%;
+        #rules-text{
+            text-align: center;    
         }
 
         #result{
