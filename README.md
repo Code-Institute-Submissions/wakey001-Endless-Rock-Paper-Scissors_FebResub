@@ -1,67 +1,35 @@
-# wakey001/Rock Paper Scissors
+# wakey001/Rock Paper Scissors Lizard Spock
 ***
 Rock, Paper, Scissors, Lizard, Spock. This game is for adults and children and is a fun, intuitive replayable game that is played against the computer. 
-## Rock Paper Scissors Game
+## Rock Paper Scissors Lizard Spock Game
 ![ami-readme-rpsls-pm2](https://user-images.githubusercontent.com/83303996/151926261-1c4b59b6-914a-475e-81ea-c6334156f0eb.PNG)
-    
-### Features
-  #### Existing Features
-  * Header
-    * Located at the top of the page it shows the game name Rock, Paper, Scissors, Lizard, Spock in a playful font which is used to make the user feel the game is not serious and to give a casual feel. 
-    * The title also tells the user what game they are playing.
 
-  ![Header image](https://user-images.githubusercontent.com/83303996/151927159-f19556df-a8be-4f3a-b129-25f0ff8d8cf3.PNG)
 
-    
-  * The Game Choices
-    * The game includes clear instructions in the footer and a clear choice of buttons to push. These are rock, paper, scissors, lizard, spock. These are interactive buttons that the user clicks. These have been styled to give a 3d effect when hovered over as well as the cursor transforming to a pointer. On mobile only a 3d effect is in effect.
+# Ux
 
-    ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/151927052-429e8b6c-064d-42f2-9fbf-8c39d1228ca7.PNG)
-
-  * The Game Results
-    * The winner is announced to the user under the interactive buttons.
-    * The score is updated for either the user or computer depending on who wins.
-    * The winner and scoreboard are clear for the user to understand.
-
-     ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/139327289-2ed2c1da-ad25-4716-8e34-965e268a06dd.PNG)
-
-  * Player and computer Images
-    * These have a standard image with a battle stance that is mirrored for the computer, this gives the game a playful but serious feel. These have now been deleted now that lizard and spock have been added , but also they did clutter the screen espicially on smaller devices.
-    ![Battle Area](https://user-images.githubusercontent.com/83303996/151927879-df8ae5ec-e68b-47fc-80ce-bb1703f6bfc5.PNG)
-
-  * Footer
-    * Initially I decided to change my footer to a button, Rules. This now opens up and image of the various selections and shows what beats what rather than text with pipes as before.
-    Unfortunateley the image would not always load on every platform, so instead I decided to insert a paragraph of text instead.
-    ![Footer](https://user-images.githubusercontent.com/83303996/152237622-19ce020c-ae55-4f59-9986-b9867971d440.PNG)
-
- * Features To Be Implemented
-    * In the future Id like to add the Lizard Spock from the big bang theory.
-    * Id also like to add an end game feature which ends the game after either player or computer wins 5 or 10 games 
-    * I'd also potentially like to have a countdown with audio " 3.. 2.. 1.. Draw!", this would add more tension and excitement to the game.
-
-#### User Goals
+## User Goals
 * The game should have relevant content
 * The game should be easy to use on all platforms
 * The game should be intuitive and look modern
 * The game should be fun, exciting
 * The game should work without fault or glitches 
 
-#### User Stories
+## User Stories
 * As a user I want the game to be easy to navigate
 * As a user I want the game to have useful information
 * As a user I want the game to be exciting  
 * As a user I want the game to be visually stimulating
 * As a user I want the game to be current and modern in design
 
-#### Site Owners Goals
+## Site Owners Goals
 * To have a working game that is fun to use
 * The game should be easy and fun to use 
 * The code should be easy enough to read as to be potentially upgraded or extended to include other weapons such as Spock or lizard in the future
 ***
 
-### User Requirements And Expectations
+## User Requirements And Expectations
 ***
-#### Requirements
+### Requirements
 * Easy to play and understand who is winning
 * Relevant quality content
 * Clear rules in the footer
@@ -72,7 +40,18 @@ Rock, Paper, Scissors, Lizard, Spock. This game is for adults and children and i
 * The user expects the game to react smoothly with minimal lag 
 * The user expects the game to be visually appealing
 ***
-### Design choices
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+## How to Play
+The user chooses to push one of the 5 buttons on screen each button correspondes to a weapon. The computer also chooses a weapon. The winner is then determined and a point is given to the victor.
+The game ends when either player or computer get to 15. 
+The user can also choose to read the rules by clicking the rules button in the footer.
+
+## Design choices
 
 #### Fonts
 * Fonts for my website are from [GOOGLE FONTS](https://fonts.google.com/). I have decided to go with [Simonetta](https://fonts.google.com/specimen/Simonetta?preview.text=Rock%20Paper%20Scissors&preview.text_type=custom&query=ox) as I feel in my opinion this is a modern and stylish and current feel and is easy to read. I also chose the same for my header as I feel this contrasts well with the main text as when larger its flair is even more noticeable in my opinion.
@@ -87,7 +66,13 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 
 * These fit with the game type as they provide a little fun whilst giving a visual cue whilst also making the site feel modern and for a young audience.
 
-#### Colors
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Colors
 
 ##### 
 * This colour [#52D1DC](https://colorate.azurewebsites.net/Color/52D1DC)![#52D1DC](https://user-images.githubusercontent.com/83303996/139559807-e2a29e11-2da9-46cb-967c-25678670ec14.PNG) is for the main background colour.
@@ -128,11 +113,52 @@ I have also gone with [Irish Grover](https://fonts.google.com/specimen/Irish+Gro
 * Again allmost the same apart from an update with the scoreboard.
 ![Desktop Wireframe](https://user-images.githubusercontent.com/83303996/147989368-4c2a8cb1-2e9b-4e5d-8f73-8894d67b5d67.PNG)
 
+## Features
+  ### Existing Features
+  #### Header
+    * Located at the top of the page it shows the game name Rock, Paper, Scissors, Lizard, Spock in a playful font which is used to make the user feel the game is not serious and to give a casual feel. 
+    * The title also tells the user what game they are playing.
+
+  ![Header image](https://user-images.githubusercontent.com/83303996/151927159-f19556df-a8be-4f3a-b129-25f0ff8d8cf3.PNG)
+
+    
+  #### The Game Choices
+    * The game includes clear instructions in the footer and a clear choice of buttons to push. These are rock, paper, scissors, lizard, spock. These are interactive buttons that the user clicks. These have been styled to give a 3d effect when hovered over as well as the cursor transforming to a pointer. On mobile only a 3d effect is in effect.
+
+    ![Interactive Buttons](https://user-images.githubusercontent.com/83303996/151927052-429e8b6c-064d-42f2-9fbf-8c39d1228ca7.PNG)
+
+  #### The Game Results
+    * The winner is announced to the user under the interactive buttons.
+    * The score is updated for either the user or computer depending on who wins.
+    * The winner and scoreboard are clear for the user to understand.
+
+     ![Scoreboard and Results](https://user-images.githubusercontent.com/83303996/139327289-2ed2c1da-ad25-4716-8e34-965e268a06dd.PNG)
+
+  #### Player and computer Images
+    * These have a standard image with a battle stance that is mirrored for the computer, this gives the game a playful but serious feel. These have now been deleted now that lizard and spock have been added , but also they did clutter the screen espicially on smaller devices.
+    ![Battle Area](https://user-images.githubusercontent.com/83303996/151927879-df8ae5ec-e68b-47fc-80ce-bb1703f6bfc5.PNG)
+
+  #### Footer
+    * Initially I decided to change my footer to a button, Rules. This now opens up and image of the various selections and shows what beats what rather than text with pipes as before.
+    Unfortunateley the image would not always load on every platform, so instead I decided to insert a paragraph of text instead.
+    ![Footer](https://user-images.githubusercontent.com/83303996/152237622-19ce020c-ae55-4f59-9986-b9867971d440.PNG)
+
+ ## Features To Be Implemented
+    * In the future Id like to add the Lizard Spock from the big bang theory.
+    * Id also like to add an end game feature which ends the game after either player or computer wins 5 or 10 games 
+    * I'd also potentially like to have a countdown with audio " 3.. 2.. 1.. Draw!", this would add more tension and excitement to the game.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ### Images
-* All of my images are borrowed from google images and mirrored using the site [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally)
+* My images are borrowed from google images.
 
 ### Structure
-* I will be building my website with a mobile-first approach. Using the Chrome developer tools to give me the iPhone 5/SE (320px), I will use this as the smallest screen size for styling. The only media query I've needed to make in CSS is for screens under 500px.
+* I will be building my website with a mobile-first approach. Using the Chrome developer tools to give me the iPhone 5/SE (320px), I will use this as the smallest screen size for styling. 
 
 ### Testing 
 * 
@@ -146,6 +172,12 @@ I have checked my code in all 3 of the recommended validator services without is
 * My results from the lighthouse in dev tools are below. With no errors in my CSS or HTML when passed through the validators mentioned in the tools section.
 
 ![Lighthouse Performance](https://user-images.githubusercontent.com/83303996/138968391-2a535cac-70a4-40c8-aee7-32de647f0860.PNG)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 #### Bugs
 
@@ -169,12 +201,17 @@ I have checked my code in all 3 of the recommended validator services without is
 
 * ##### Verdict 
   * After implementing the fix the mobile devices under 350px now display constant sizes reliably and does not increase or decrease the size of the div.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 #### images
 * ##### Bug 
   * When uploading my images of rock paper scissors. They load vertically by default and were both to the left of their div containers. This looked terrible so needed to be fixed. 
 
-*  ##### Fix
+* ##### Fix
   * I fixed them in css using display:flex , flex-direction: column , and align-items: center .
   
  
@@ -222,17 +259,18 @@ To run it locally on Gitpod follow this method:
 
 
 ***
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ### Credits
 #### Content-Media-Inspiration
 * My inspiration was a mixture of a lot of games I have seen both online on youtube and on the forum slack.
 
-#### Images 
-* The Images I obtained are from google images and flipped to get the mirror image for the computer side via [onlinepngtools](https://onlinepngtools.com/flip-png-horizontally) This site became a saviour of mine as its quick and easy. I'd spent a number of hours in paint flipping but losing transparency when doing so.
-This is not the case with the website above.
-
 #### Acknowledgements
 * I'd like to firstly acknowledge my mentor [Simen Daehlin](https://github.com/Eventyret), his guidance helped me structure the project to meet deadlines for our meetings which helped immensely. I'd also like to thank the community of slack who helped me with some issues I had with JavaScript. 
 
 #### Credits 
-* 
+* The layout I based my work on was code-institutes own html this gave me a good base to work on and ive gone on to modify and alter this to make the project my own.
