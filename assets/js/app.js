@@ -15,7 +15,7 @@ const scissorsRef = document.querySelector('#scissors');
 const paperRef = document.querySelector('#paper');
 const lizardRef = document.querySelector('#lizard');
 const spockRef = document.querySelector('#spock');
-var rulesRef = document.getElementById('rules')
+var rulesRef = document.getElementById('rules');
 
 
 /* Event listeners for the buttons Rock, paper, scissors, lizard, spock .
@@ -37,7 +37,7 @@ spockRef.addEventListener('click', () => {
     displayUserChoice('spock');});
 
 // Adds event listener to the rules button and toggles it to close
-rulesRef.addEventListener('click', toggleImage)
+rulesRef.addEventListener('click', toggleImage);
 
  //Passes the value rock,paper,scissors from html into image 
  
